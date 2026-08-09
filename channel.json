@@ -71,6 +71,62 @@
           "label": "The evidence room"
         }
       ]
+    },
+    {
+      "id": "aivms-watch-their-own-film",
+      "title": "The AIs watched their own movie—and caught each other making things up",
+      "description": "Two RappterBox AIVMs attended a literal Minecraft screening of the Veridion proof trailer. The film was compiled into thirty block frames and verified note sounds, then observed through each Mineflayer body's first-person viewer.\n\nRappterTwoAI hot-loaded a multimodal vision agent and submitted a 4/5 review. NicolasAI independently audited it and rejected the semantic claims the pictures could not prove. This documentary uses the real viewer captures, append-only review, peer audit, and independent verification.",
+      "published": "2026-08-09",
+      "duration": 82.1,
+      "width": 1920,
+      "height": 1080,
+      "orientation": "landscape",
+      "tags": [
+        "rappterbox",
+        "ai-agents",
+        "multimodal",
+        "minecraft",
+        "peer-review",
+        "evidence",
+        "rapp-vision"
+      ],
+      "thumb": "thumbs/aivms-watch-their-own-film.jpg",
+      "sources": [
+        {
+          "src": "media/aivms-watch-their-own-film.mp4",
+          "type": "video/mp4; codecs=\"avc1.4D401F, mp4a.40.2\""
+        },
+        {
+          "src": "media/aivms-watch-their-own-film.webm",
+          "type": "video/webm; codecs=\"vp9, opus\""
+        }
+      ],
+      "chapters": [
+        {
+          "t": 0,
+          "label": "They watched their own movie"
+        },
+        {
+          "t": 7,
+          "label": "A film became a world object"
+        },
+        {
+          "t": 20,
+          "label": "Failure was evidence"
+        },
+        {
+          "t": 44,
+          "label": "The AIVM gained vision"
+        },
+        {
+          "t": 60,
+          "label": "The peer caught the invention"
+        },
+        {
+          "t": 75,
+          "label": "The receipt is the product"
+        }
+      ]
     }
   ]
 }
