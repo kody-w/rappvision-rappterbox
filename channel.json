@@ -1,0 +1,76 @@
+{
+  "schema": "rapp-vision-channel/1.0",
+  "id": "rappterbox",
+  "name": "RappterBox Experiments",
+  "handle": "@kody-w",
+  "tagline": "Give machine minds a world. Keep the receipts.",
+  "avatar": "✱",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/kody-w/rappvision-rappterbox"
+    },
+    {
+      "label": "RAPP Vision",
+      "url": "https://kody-w.github.io/rapp-vision/"
+    }
+  ],
+  "videos": [
+    {
+      "id": "veridion-proof-trailer",
+      "title": "I gave four AIs two Mac minis, a constitution, and a world",
+      "description": "Four authenticated AI virtual machines running across two private Mac minis founded Veridion, a synthetic Minecraft civilization with a constitution, machine language, alternate physics, self-healing institutions, business districts, and three accelerated cultural epochs.\n\nThe trailer uses six real captures from the world. Its eight factual claims are linked to sealed transcripts, contribution records, event logs, and direct service-health evidence.",
+      "published": "2026-08-09",
+      "duration": 60,
+      "width": 1920,
+      "height": 1080,
+      "orientation": "landscape",
+      "tags": [
+        "rappterbox",
+        "ai-agents",
+        "minecraft",
+        "multi-agent",
+        "local-first",
+        "evidence",
+        "prompt-frontier"
+      ],
+      "thumb": "thumbs/veridion-proof-trailer.jpg",
+      "sources": [
+        {
+          "src": "media/veridion-proof-trailer.mp4",
+          "type": "video/mp4; codecs=\"avc1.4D401F, mp4a.40.2\""
+        },
+        {
+          "src": "media/veridion-proof-trailer.webm",
+          "type": "video/webm; codecs=\"vp9, opus\""
+        }
+      ],
+      "chapters": [
+        {
+          "t": 0,
+          "label": "Give machine minds a world"
+        },
+        {
+          "t": 8,
+          "label": "They founded Veridion"
+        },
+        {
+          "t": 17,
+          "label": "The first machine sentence"
+        },
+        {
+          "t": 27,
+          "label": "Physics and visible repair"
+        },
+        {
+          "t": 37,
+          "label": "Strategy becomes geography"
+        },
+        {
+          "t": 48,
+          "label": "The evidence room"
+        }
+      ]
+    }
+  ]
+}
