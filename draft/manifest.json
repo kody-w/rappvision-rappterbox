@@ -1,0 +1,54 @@
+{
+  "draft_hash": "f4ac2a6ce0ad4cde265dc7e8fe2132b805789bf9c6e78e8a73664137da5ae6e2",
+  "founding_four": [
+    {
+      "draft_overall_pick": 1,
+      "founder_assignee": "Molly",
+      "founder_instance_is_unique": true,
+      "founder_instance_label": "Worldseed-001",
+      "paper_card_id": "001",
+      "source_rapter_id": "G151",
+      "starter_role": "Overwatch",
+      "starter_species_name": "Worldseed"
+    },
+    {
+      "draft_overall_pick": 2,
+      "founder_assignee": "Sawyer",
+      "founder_instance_is_unique": true,
+      "founder_instance_label": "Everframe-001",
+      "paper_card_id": "002",
+      "source_rapter_id": "G251",
+      "starter_role": "Scout",
+      "starter_species_name": "Everframe"
+    },
+    {
+      "draft_overall_pick": 3,
+      "founder_assignee": "Evelyn",
+      "founder_instance_is_unique": true,
+      "founder_instance_label": "Duneledger-001",
+      "paper_card_id": "003",
+      "source_rapter_id": "G005",
+      "starter_role": "Forge",
+      "starter_species_name": "Duneledger"
+    },
+    {
+      "draft_overall_pick": 4,
+      "founder_assignee": "Kody",
+      "founder_instance_is_unique": true,
+      "founder_instance_label": "Mudcrackoracle-001",
+      "paper_card_id": "004",
+      "source_rapter_id": "G008",
+      "starter_role": "Sentinel",
+      "starter_species_name": "Mudcrackoracle"
+    }
+  ],
+  "frame_count": 254,
+  "head_frame_hash": "d8a19e84c5ce704028df3dabba5204239f7b8186a72471c4f1e5b39cba04a73f",
+  "head_payload_hash": "eacfb8dc93ae490ac93513699ccedd7837cb8c3bcee0a175c6d1de1c6c15cbf5",
+  "paper_test_only": true,
+  "pick_frame_count": 251,
+  "private_historical_summary_frame_hash": "b5c6e765202693c42f56229e3984a0fc6b665010aa4eac62bf773e618ae828b1",
+  "public_fields_only": true,
+  "schema": "rappvision-founding-four-draft-manifest/1",
+  "stream_id": "rappid:@rapterbox/twin:74d64548d291f8b13b57eacd69b41600ccc9195d474eb59eff850a0ff5cd6e18:genesis-251-draft"
+}

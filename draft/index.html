@@ -1,0 +1,977 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Genesis 251 Founding Four Draft</title>
+    <script>
+      (() => {
+        const param = new URLSearchParams(window.location.search).get("scoutTheme");
+        const theme =
+          param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --cp-bg: #f7f4ef;
+        --cp-bg-elevated: #fcfbf8;
+        --cp-surface: #ffffff;
+        --cp-surface-soft: #f5f5f5;
+        --cp-border: #dedede;
+        --cp-border-strong: #919191;
+        --cp-text: #242424;
+        --cp-text-muted: #5c5c5c;
+        --cp-text-soft: #6f6f6f;
+        --cp-accent: #b11f4b;
+        --cp-accent-hover: #9a1a41;
+        --cp-accent-soft: rgba(177, 31, 75, 0.08);
+        --cp-accent-fg: #ffffff;
+        --cp-success: #16a34a;
+        --cp-danger: #dc2626;
+        --cp-warning: #f59e0b;
+        --cp-link: #0078d4;
+        --cp-shadow: 0 18px 48px rgba(0, 0, 0, 0.12);
+        --cp-overlay: rgba(255, 255, 255, 0.8);
+        --cp-panel: rgba(255, 255, 255, 0.86);
+        --cp-panel-strong: rgba(255, 255, 255, 0.96);
+        --cp-sheen: rgba(255, 255, 255, 0.55);
+        --cp-highlight: rgba(177, 31, 75, 0.12);
+      }
+      html[data-theme="dark"] {
+        color-scheme: dark;
+        --cp-bg: #3d3b3a;
+        --cp-bg-elevated: #343231;
+        --cp-surface: #292929;
+        --cp-surface-soft: #2e2e2e;
+        --cp-border: #474747;
+        --cp-border-strong: #5f5f5f;
+        --cp-text: #dedede;
+        --cp-text-muted: #919191;
+        --cp-text-soft: #b0b0b0;
+        --cp-accent: #fd8ea1;
+        --cp-accent-hover: #fb7b91;
+        --cp-accent-soft: rgba(253, 142, 161, 0.14);
+        --cp-accent-fg: #1a1a1a;
+        --cp-success: #4ade80;
+        --cp-danger: #f87171;
+        --cp-warning: #fbbf24;
+        --cp-link: #4da6ff;
+        --cp-shadow: 0 18px 48px rgba(0, 0, 0, 0.32);
+        --cp-overlay: rgba(41, 41, 41, 0.88);
+        --cp-panel: rgba(41, 41, 41, 0.72);
+        --cp-panel-strong: rgba(41, 41, 41, 0.96);
+        --cp-sheen: rgba(255, 255, 255, 0.04);
+        --cp-highlight: rgba(253, 142, 161, 0.12);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        min-height: 100%;
+        margin: 0;
+        background: var(--cp-bg);
+        color: var(--cp-text);
+        font-family: "Segoe UI", Aptos, Calibri, -apple-system, BlinkMacSystemFont, sans-serif;
+      }
+
+      button {
+        font: inherit;
+      }
+
+      .app {
+        width: min(1480px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 28px 0 48px;
+      }
+
+      .topbar {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 24px;
+        margin-bottom: 20px;
+      }
+
+      .eyebrow,
+      .mono {
+        font-family: Consolas, "Courier New", Courier, monospace;
+      }
+
+      .eyebrow {
+        margin: 0 0 8px;
+        color: var(--cp-accent);
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        max-width: 900px;
+        margin-bottom: 10px;
+        font-size: clamp(34px, 5vw, 68px);
+        line-height: 0.98;
+        letter-spacing: -0.045em;
+      }
+
+      .lede {
+        max-width: 850px;
+        margin-bottom: 0;
+        color: var(--cp-text-muted);
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+      .verification {
+        min-width: 238px;
+        padding: 14px 16px;
+        border: 1px solid var(--cp-border);
+        border-radius: 0.625rem;
+        background: var(--cp-surface);
+        box-shadow: var(--cp-shadow);
+      }
+
+      .verification strong {
+        display: block;
+        margin-bottom: 4px;
+        color: var(--cp-warning);
+      }
+
+      .verification[data-ok="true"] strong {
+        color: var(--cp-success);
+      }
+
+      .verification small {
+        color: var(--cp-text-muted);
+      }
+
+      .notice {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 16px;
+        padding: 12px 16px;
+        border: 1px solid var(--cp-border);
+        border-left: 5px solid var(--cp-accent);
+        border-radius: 0.625rem;
+        background: var(--cp-accent-soft);
+        font-size: 14px;
+      }
+
+      .notice span:last-child {
+        color: var(--cp-text-muted);
+        text-align: right;
+      }
+
+      .founders {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+        margin-bottom: 16px;
+      }
+
+      .founder {
+        position: relative;
+        min-height: 122px;
+        padding: 16px;
+        overflow: hidden;
+        border: 1px solid var(--cp-border);
+        border-radius: 16px;
+        background: var(--cp-surface);
+      }
+
+      .founder[data-focused="true"] {
+        border-color: var(--cp-accent);
+        box-shadow: 0 0 0 3px var(--cp-highlight);
+      }
+
+      .founder .card-id {
+        color: var(--cp-text-muted);
+        font-size: 12px;
+      }
+
+      .founder h3 {
+        margin: 6px 0 2px;
+        font-size: 21px;
+      }
+
+      .founder .species {
+        margin-bottom: 8px;
+        color: var(--cp-accent);
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      .founder .roster-count {
+        color: var(--cp-text-muted);
+        font-size: 13px;
+      }
+
+      .founder .count {
+        position: absolute;
+        right: 14px;
+        bottom: 8px;
+        color: var(--cp-text-soft);
+        font-size: 36px;
+        font-weight: 700;
+        opacity: 0.3;
+      }
+
+      .progress-shell {
+        height: 10px;
+        margin-bottom: 16px;
+        overflow: hidden;
+        border: 1px solid var(--cp-border);
+        border-radius: 0.625rem;
+        background: var(--cp-surface-soft);
+      }
+
+      .progress-fill {
+        width: 0;
+        height: 100%;
+        background: var(--cp-accent);
+        transition: width 160ms ease-out;
+      }
+
+      .draft-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.55fr) minmax(330px, 0.75fr);
+        gap: 16px;
+      }
+
+      .panel {
+        border: 1px solid var(--cp-border);
+        border-radius: 16px;
+        background: var(--cp-surface);
+        box-shadow: var(--cp-shadow);
+      }
+
+      .stage {
+        min-height: 520px;
+        padding: 26px;
+      }
+
+      .stage-meta {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 34px;
+        color: var(--cp-text-muted);
+        font-size: 14px;
+      }
+
+      .pick-label {
+        display: inline-flex;
+        align-items: center;
+        min-height: 34px;
+        padding: 0 12px;
+        border-radius: 0.625rem;
+        background: var(--cp-accent);
+        color: var(--cp-accent-fg);
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .selection {
+        min-height: 280px;
+        padding: 28px;
+        border: 1px solid var(--cp-border-strong);
+        border-radius: 16px;
+        background: var(--cp-bg-elevated);
+      }
+
+      .selection h2 {
+        margin-bottom: 12px;
+        font-size: clamp(38px, 6vw, 76px);
+        line-height: 0.95;
+        letter-spacing: -0.04em;
+      }
+
+      .selection .identity {
+        margin-bottom: 20px;
+        color: var(--cp-accent);
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+      .selection-details {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .detail {
+        padding: 12px;
+        border: 1px solid var(--cp-border);
+        border-radius: 0.625rem;
+        background: var(--cp-surface);
+      }
+
+      .detail span {
+        display: block;
+        margin-bottom: 4px;
+        color: var(--cp-text-muted);
+        font-size: 11px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .detail strong {
+        font-size: 15px;
+      }
+
+      .on-clock {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        margin-top: 18px;
+        padding: 15px 16px;
+        border: 1px solid var(--cp-border);
+        border-radius: 0.625rem;
+        background: var(--cp-surface-soft);
+      }
+
+      .on-clock span {
+        color: var(--cp-text-muted);
+        font-size: 13px;
+      }
+
+      .controls {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 18px;
+      }
+
+      .controls button {
+        min-height: 42px;
+        padding: 0 16px;
+        border: 1px solid var(--cp-border-strong);
+        border-radius: 0.625rem;
+        background: var(--cp-surface);
+        color: var(--cp-text);
+        cursor: pointer;
+      }
+
+      .controls button:hover:not(:disabled) {
+        border-color: var(--cp-accent);
+      }
+
+      .controls .primary {
+        border-color: var(--cp-accent);
+        background: var(--cp-accent);
+        color: var(--cp-accent-fg);
+      }
+
+      .controls .primary:hover:not(:disabled) {
+        background: var(--cp-accent-hover);
+      }
+
+      .controls button:disabled {
+        cursor: not-allowed;
+        opacity: 0.45;
+      }
+
+      .sidebar {
+        display: grid;
+        gap: 16px;
+      }
+
+      .sidebar section {
+        padding: 18px;
+      }
+
+      .sidebar h2 {
+        margin-bottom: 14px;
+        font-size: 16px;
+      }
+
+      .pick-list {
+        display: grid;
+        gap: 8px;
+        min-height: 180px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .pick-list li {
+        display: grid;
+        grid-template-columns: 44px minmax(0, 1fr);
+        gap: 10px;
+        padding: 9px;
+        border: 1px solid var(--cp-border);
+        border-radius: 0.625rem;
+        background: var(--cp-surface-soft);
+        font-size: 13px;
+      }
+
+      .pick-list .pick-number {
+        color: var(--cp-accent);
+        font-weight: 700;
+      }
+
+      .pick-list small {
+        display: block;
+        margin-top: 2px;
+        color: var(--cp-text-muted);
+      }
+
+      .offspring {
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      .offspring strong {
+        color: var(--cp-accent);
+      }
+
+      .hash {
+        margin-top: 14px;
+        overflow: hidden;
+        color: var(--cp-text-muted);
+        font-size: 11px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      @media (max-width: 980px) {
+        .topbar,
+        .notice {
+          align-items: stretch;
+          flex-direction: column;
+        }
+
+        .verification {
+          min-width: 0;
+        }
+
+        .founders {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .draft-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .app {
+          width: min(100% - 20px, 1480px);
+          padding-top: 16px;
+        }
+
+        .founders,
+        .selection-details {
+          grid-template-columns: 1fr;
+        }
+
+        .stage {
+          padding: 14px;
+        }
+
+        .selection {
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="app">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">RAPP Vision live replay • Founding Four</p>
+          <h1>Genesis 251 Draft</h1>
+          <p class="lede">
+            Watch all 251 named Rapters leave the deterministic big board, one verified
+            RAPP/1 frame at a time.
+          </p>
+        </div>
+        <div id="verification" class="verification" data-ok="false">
+          <strong id="verification-title">Verifying replay…</strong>
+          <small id="verification-copy">Loading the public frame chain.</small>
+        </div>
+      </header>
+
+      <div class="notice">
+        <strong>Paper-card simulation only.</strong>
+        <span>Four participating cards. Watch-only. No metal issuance, title transfer, or offspring issuance.</span>
+      </div>
+
+      <section id="founders" class="founders" aria-label="Founding Four starter cards"></section>
+
+      <div class="progress-shell" aria-hidden="true">
+        <div id="progress" class="progress-fill"></div>
+      </div>
+
+      <div class="draft-grid">
+        <section class="panel stage" aria-live="polite">
+          <div class="stage-meta">
+            <span id="pick-label" class="pick-label">Draft ready</span>
+            <span id="progress-copy" class="mono">0 / 251 picks</span>
+          </div>
+
+          <article class="selection">
+            <h2 id="selection-name">The Founding Four are on the clock.</h2>
+            <p id="selection-identity" class="identity">251 named Rapters • 63 rounds</p>
+            <div class="selection-details">
+              <div class="detail">
+                <span>Selected by</span>
+                <strong id="selected-by">—</strong>
+              </div>
+              <div class="detail">
+                <span>Starter house</span>
+                <strong id="starter-house">—</strong>
+              </div>
+              <div class="detail">
+                <span>Talent lane</span>
+                <strong id="talent-lane">—</strong>
+              </div>
+            </div>
+          </article>
+
+          <div class="on-clock">
+            <div>
+              <span>On the clock</span>
+              <strong id="on-clock">Molly • Overwatch • Pick 1</strong>
+            </div>
+            <span id="round-copy" class="mono">Round 1</span>
+          </div>
+
+          <div class="controls">
+            <button id="previous-pick" type="button" disabled>Previous</button>
+            <button id="next-pick" class="primary" type="button" disabled>Announce next pick</button>
+            <button id="autoplay" type="button" disabled>Play draft</button>
+            <button id="reset" type="button" disabled>Reset</button>
+          </div>
+
+          <div id="frame-hash" class="hash mono">Frame: waiting for verified chain</div>
+        </section>
+
+        <aside class="sidebar">
+          <section class="panel">
+            <h2>Recent picks</h2>
+            <ol id="recent-picks" class="pick-list"></ol>
+          </section>
+
+          <section class="panel">
+            <h2>Next on the big board</h2>
+            <ol id="upcoming-picks" class="pick-list"></ol>
+          </section>
+
+          <section class="panel offspring">
+            <h2>Current prerelease boundary</h2>
+            <p>
+              The Founding Four are paper test identities. The founder
+              <strong>-001 labels remain unique</strong>, but this replay grants or promises
+              no title, metal card, descendant, purchase, or issuance right.
+            </p>
+          </section>
+        </aside>
+      </div>
+    </main>
+
+    <script>
+      (() => {
+        "use strict";
+
+        const expectedStream =
+          "rappid:@rapterbox/twin:" +
+          "74d64548d291f8b13b57eacd69b41600ccc9195d474eb59eff850a0ff5cd6e18" +
+          ":genesis-251-draft";
+        const verification = document.getElementById("verification");
+        const verificationTitle = document.getElementById("verification-title");
+        const verificationCopy = document.getElementById("verification-copy");
+        const foundersNode = document.getElementById("founders");
+        const progress = document.getElementById("progress");
+        const progressCopy = document.getElementById("progress-copy");
+        const pickLabel = document.getElementById("pick-label");
+        const selectionName = document.getElementById("selection-name");
+        const selectionIdentity = document.getElementById("selection-identity");
+        const selectedBy = document.getElementById("selected-by");
+        const starterHouse = document.getElementById("starter-house");
+        const talentLane = document.getElementById("talent-lane");
+        const onClock = document.getElementById("on-clock");
+        const roundCopy = document.getElementById("round-copy");
+        const frameHash = document.getElementById("frame-hash");
+        const previousButton = document.getElementById("previous-pick");
+        const nextButton = document.getElementById("next-pick");
+        const autoplayButton = document.getElementById("autoplay");
+        const resetButton = document.getElementById("reset");
+        const recentNode = document.getElementById("recent-picks");
+        const upcomingNode = document.getElementById("upcoming-picks");
+
+        let frames = [];
+        let picks = [];
+        let starters = [];
+        let currentIndex = -1;
+        let timer = null;
+        const focusedCard = new URLSearchParams(window.location.search).get("card");
+        const requestedPick = Number(
+          new URLSearchParams(window.location.search).get("pick")
+        );
+
+        function canonical(value) {
+          if (value === null || typeof value === "boolean") return JSON.stringify(value);
+          if (typeof value === "number") {
+            if (!Number.isSafeInteger(value)) throw new Error("non-I-JSON number");
+            return JSON.stringify(value);
+          }
+          if (typeof value === "string") return JSON.stringify(value);
+          if (Array.isArray(value)) return "[" + value.map(canonical).join(",") + "]";
+          if (typeof value === "object") {
+            return (
+              "{" +
+              Object.keys(value)
+                .sort()
+                .map((key) => JSON.stringify(key) + ":" + canonical(value[key]))
+                .join(",") +
+              "}"
+            );
+          }
+          throw new Error("non-I-JSON value");
+        }
+
+        async function hash(space, value) {
+          const bytes = new TextEncoder().encode(space + "\n" + canonical(value));
+          const digest = await crypto.subtle.digest("SHA-256", bytes);
+          return Array.from(new Uint8Array(digest))
+            .map((byte) => byte.toString(16).padStart(2, "0"))
+            .join("");
+        }
+
+        async function verifyChain(candidateFrames) {
+          const streamPattern =
+            /^rappid:@[a-z0-9]+(?:-[a-z0-9]+)*\/[a-z0-9]+(?:-[a-z0-9]+)*:[a-f0-9]{64}:[a-z0-9]+(?:-[a-z0-9]+)*$/;
+          let previous = null;
+          for (let index = 0; index < candidateFrames.length; index += 1) {
+            const frame = candidateFrames[index];
+            if (
+              frame.spec !== "rapp/1" ||
+              frame.kind !== "memory.save" ||
+              !streamPattern.test(frame.stream_id) ||
+              frame.stream_id !== expectedStream ||
+              frame.seq !== index ||
+              frame.prev_wave !== null ||
+              frame.sig !== null
+            ) {
+              throw new Error("frame identity mismatch at " + index);
+            }
+            const payloadHash = await hash("rapp/1:particle", frame.payload);
+            if (payloadHash !== frame.payload_hash) throw new Error("payload hash mismatch at " + index);
+            if (frame.prev !== (previous ? previous.payload_hash : null)) {
+              throw new Error("chain link mismatch at " + index);
+            }
+            const preimage = {};
+            Object.keys(frame).forEach((key) => {
+              if (key !== "frame_hash" && key !== "sig") preimage[key] = frame[key];
+            });
+            const frameDigest = await hash("rapp/1:wave", preimage);
+            if (frameDigest !== frame.frame_hash) throw new Error("frame hash mismatch at " + index);
+            previous = frame;
+          }
+        }
+
+        function verifySemantics(candidateFrames, manifest) {
+          if (candidateFrames.length !== 254) throw new Error("expected 254 frames");
+          const events = candidateFrames.map((frame) => frame.payload.event);
+          if (
+            events[0] !== "draft.opened" ||
+            events[1] !== "starter.declared" ||
+            events.at(-1) !== "draft.closed"
+          ) throw new Error("draft lifecycle is incomplete");
+          const candidatePicks = candidateFrames.filter(
+            (frame) => frame.payload.event === "draft.pick"
+          );
+          if (candidatePicks.length !== 251) throw new Error("expected 251 pick frames");
+
+          const expectedIds = new Set(
+            Array.from({ length: 251 }, (_, index) => "G" + String(index + 1).padStart(3, "0"))
+          );
+          const ids = new Set(candidatePicks.map((frame) => frame.payload.rapter_id));
+          const names = new Set(candidatePicks.map((frame) => frame.payload.name));
+          if (
+            ids.size !== 251 ||
+            names.size !== 251 ||
+            [...expectedIds].some((id) => !ids.has(id))
+          ) throw new Error("pick identities are not unique and complete");
+
+          const order = [
+            ["001", "Molly", "Overwatch"],
+            ["002", "Sawyer", "Scout"],
+            ["003", "Evelyn", "Forge"],
+            ["004", "Kody", "Sentinel"],
+          ];
+          candidatePicks.forEach((frame, index) => {
+            const payload = frame.payload;
+            const expected = order[index % 4];
+            if (
+              payload.overall_pick !== index + 1 ||
+              payload.card_id !== expected[0] ||
+              payload.assignee !== expected[1] ||
+              payload.starter_role !== expected[2]
+            ) throw new Error("draft order mismatch at pick " + (index + 1));
+          });
+
+          const opened = candidateFrames[0].payload;
+          const declared = candidateFrames[1].payload;
+          const closed = candidateFrames.at(-1).payload;
+          if (
+            opened.boundary.paper_test_cards_only !== true ||
+            opened.boundary.title_transfer !== false ||
+            opened.boundary.offspring_issuance_open !== false ||
+            declared.current_boundary.title_or_offspring_rights_granted !== false ||
+            closed.boundary.watch_only !== true ||
+            closed.boundary.title_transfer !== false ||
+            closed.boundary.offspring_issuance_open !== false
+          ) throw new Error("prerelease boundary mismatch");
+
+          const labels = declared.founding_four.map((item) => item.founder_instance_label);
+          if (
+            JSON.stringify(labels) !==
+            JSON.stringify([
+              "Worldseed-001",
+              "Everframe-001",
+              "Duneledger-001",
+              "Mudcrackoracle-001",
+            ])
+          ) throw new Error("Founding Four identity mismatch");
+
+          if (
+            manifest.frame_count !== 254 ||
+            manifest.pick_frame_count !== 251 ||
+            manifest.stream_id !== expectedStream ||
+            manifest.head_frame_hash !== candidateFrames.at(-1).frame_hash ||
+            manifest.draft_hash !== opened.draft_hash ||
+            closed.draft_hash !== opened.draft_hash
+          ) throw new Error("manifest binding mismatch");
+          return { candidatePicks, declared };
+        }
+
+        function rosterCounts() {
+          const counts = new Map(starters.map((starter) => [starter.assignee, 0]));
+          picks.slice(0, currentIndex + 1).forEach((frame) => {
+            counts.set(frame.payload.assignee, (counts.get(frame.payload.assignee) || 0) + 1);
+          });
+          return counts;
+        }
+
+        function renderFounders() {
+          const counts = rosterCounts();
+          foundersNode.replaceChildren(
+            ...starters.map((starter) => {
+              const article = document.createElement("article");
+              article.className = "founder";
+              article.dataset.focused = String(focusedCard === starter.card_id);
+
+              const cardId = document.createElement("div");
+              cardId.className = "card-id mono";
+              cardId.textContent = "CARD " + starter.card_id + " • " + starter.assignee;
+
+              const title = document.createElement("h3");
+              title.textContent = starter.starter_role;
+
+              const species = document.createElement("div");
+              species.className = "species";
+              species.textContent = starter.founder_instance_label;
+
+              const roster = document.createElement("div");
+              roster.className = "roster-count";
+              roster.textContent = "Drafted roster: " + counts.get(starter.assignee);
+
+              const count = document.createElement("div");
+              count.className = "count";
+              count.textContent = String(counts.get(starter.assignee)).padStart(2, "0");
+
+              article.append(cardId, title, species, roster, count);
+              return article;
+            })
+          );
+        }
+
+        function pickListItem(frame) {
+          const item = document.createElement("li");
+          const number = document.createElement("span");
+          number.className = "pick-number mono";
+          number.textContent = "#" + frame.payload.overall_pick;
+          const copy = document.createElement("span");
+          const strong = document.createElement("strong");
+          strong.textContent = frame.payload.name;
+          const small = document.createElement("small");
+          small.textContent =
+            frame.payload.assignee + " • " + frame.payload.starter_role + " • " + frame.payload.rapter_id;
+          copy.append(strong, small);
+          item.append(number, copy);
+          return item;
+        }
+
+        function renderLists() {
+          const recent = picks.slice(Math.max(0, currentIndex - 4), currentIndex + 1).reverse();
+          recentNode.replaceChildren(...recent.map(pickListItem));
+          const upcoming = picks.slice(currentIndex + 1, currentIndex + 6);
+          upcomingNode.replaceChildren(...upcoming.map(pickListItem));
+        }
+
+        function render() {
+          const completed = currentIndex + 1;
+          const current = currentIndex >= 0 ? picks[currentIndex] : null;
+          const next = picks[currentIndex + 1] || null;
+          progress.style.width = (completed / picks.length) * 100 + "%";
+          progressCopy.textContent = completed + " / " + picks.length + " picks";
+
+          if (current) {
+            pickLabel.textContent = "Pick " + current.payload.overall_pick + " announced";
+            selectionName.textContent = current.payload.name;
+            selectionIdentity.textContent =
+              current.payload.rapter_id + " • " + current.payload.stage + " • Round " + current.payload.round;
+            selectedBy.textContent = current.payload.assignee + " • Card " + current.payload.card_id;
+            starterHouse.textContent = current.payload.starter_role;
+            talentLane.textContent = current.payload.job_lane;
+            frameHash.textContent = "Frame " + current.frame_hash;
+          } else {
+            pickLabel.textContent = "Draft ready";
+            selectionName.textContent = "The Founding Four are on the clock.";
+            selectionIdentity.textContent = "251 named Rapters • 63 rounds";
+            selectedBy.textContent = "—";
+            starterHouse.textContent = "—";
+            talentLane.textContent = "—";
+            frameHash.textContent = "Frame: verified draft opening";
+          }
+
+          if (next) {
+            onClock.textContent =
+              next.payload.assignee +
+              " • " +
+              next.payload.starter_role +
+              " • Pick " +
+              next.payload.overall_pick;
+            roundCopy.textContent =
+              "Round " + next.payload.round + " • Slot " + next.payload.pick_in_round;
+          } else {
+            onClock.textContent = "Draft complete";
+            roundCopy.textContent = "All 251 selected";
+          }
+
+          previousButton.disabled = currentIndex < 0;
+          nextButton.disabled = currentIndex >= picks.length - 1;
+          resetButton.disabled = currentIndex < 0;
+          autoplayButton.disabled = !picks.length || currentIndex >= picks.length - 1;
+          renderFounders();
+          renderLists();
+        }
+
+        function stopAutoplay() {
+          if (timer !== null) window.clearInterval(timer);
+          timer = null;
+          autoplayButton.textContent = "Play draft";
+        }
+
+        function nextPick() {
+          if (currentIndex < picks.length - 1) {
+            currentIndex += 1;
+            render();
+          }
+          if (currentIndex >= picks.length - 1) stopAutoplay();
+        }
+
+        previousButton.addEventListener("click", () => {
+          stopAutoplay();
+          if (currentIndex >= 0) currentIndex -= 1;
+          render();
+        });
+
+        nextButton.addEventListener("click", nextPick);
+
+        autoplayButton.addEventListener("click", () => {
+          if (timer !== null) {
+            stopAutoplay();
+            return;
+          }
+          autoplayButton.textContent = "Pause draft";
+          timer = window.setInterval(nextPick, 700);
+        });
+
+        resetButton.addEventListener("click", () => {
+          stopAutoplay();
+          currentIndex = -1;
+          render();
+        });
+
+        window.addEventListener("keydown", (event) => {
+          if (event.code === "ArrowRight" || event.code === "Space") {
+            event.preventDefault();
+            nextPick();
+          } else if (event.code === "ArrowLeft") {
+            event.preventDefault();
+            previousButton.click();
+          }
+        });
+
+        async function start() {
+          try {
+            const response = await fetch("./draft.jsonl", { cache: "no-store" });
+            if (!response.ok) throw new Error("draft chain returned " + response.status);
+            const manifestResponse = await fetch("./manifest.json", { cache: "no-store" });
+            if (!manifestResponse.ok) throw new Error("draft manifest returned " + manifestResponse.status);
+            const [text, manifest] = await Promise.all([
+              response.text(),
+              manifestResponse.json(),
+            ]);
+            frames = text
+              .split("\n")
+              .filter((line) => line.trim())
+              .map((line) => JSON.parse(line));
+            await verifyChain(frames);
+            const semantics = verifySemantics(frames, manifest);
+            picks = semantics.candidatePicks;
+            starters = semantics.declared.founding_four;
+            if (
+              Number.isInteger(requestedPick)
+              && requestedPick >= 1
+              && requestedPick <= picks.length
+            ) {
+              currentIndex = requestedPick - 1;
+            }
+            verification.dataset.ok = "true";
+            verificationTitle.textContent = frames.length + " RAPP/1 frames verified";
+            verificationCopy.textContent = "251 unique pick frames • head " + frames.at(-1).frame_hash.slice(0, 16) + "…";
+            nextButton.disabled = false;
+            autoplayButton.disabled = false;
+            resetButton.disabled = false;
+            render();
+            window.__draftReplay = {
+              frameCount: frames.length,
+              pickCount: picks.length,
+              head: frames.at(-1).frame_hash,
+              next: nextPick,
+              reset: () => resetButton.click(),
+            };
+          } catch (error) {
+            verificationTitle.textContent = "Replay refused";
+            verificationCopy.textContent = error instanceof Error ? error.message : String(error);
+            pickLabel.textContent = "Verification failed";
+          }
+        }
+
+        start();
+      })();
+    </script>
+  </body>
+</html>
