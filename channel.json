@@ -4,7 +4,7 @@
   "name": "RappterBox Experiments",
   "handle": "@kody-w",
   "tagline": "Give machine minds a world. Keep the receipts.",
-  "avatar": "✱",
+  "avatar": "\u2731",
   "links": [
     {
       "label": "GitHub",
@@ -16,6 +16,2356 @@
     }
   ],
   "videos": [
+    {
+      "id": "genesis-251-founding-four-draft",
+      "title": "The Founding Four drafted all 251 Genesis Rapters",
+      "description": "A watch-only inaugural draft replay built from 254 verified RAPP/1 memory frames: one opening, one Founding Four starter declaration, 251 named picks, and one close. Molly drafts as Overwatch with Worldseed-001, Sawyer as Scout with Everframe-001, Evelyn as Forge with Duneledger-001, and Kody as Sentinel with Mudcrackoracle-001.\n\nThese are paper test cards only. This replay grants or promises no metal card, title, purchase, descendant, or issuance right. Any later product state requires a separate rights-cleared, signed release.",
+      "published": "2026-08-30",
+      "duration": 168.05,
+      "width": 1920,
+      "height": 1080,
+      "orientation": "landscape",
+      "tags": [
+        "rappterbox",
+        "rapp-1",
+        "live-replay",
+        "genesis-251",
+        "draft",
+        "founding-four",
+        "starter-companions",
+        "paper-test"
+      ],
+      "thumb": "thumbs/genesis-251-founding-four-draft.jpg",
+      "sources": [],
+      "chapters": [
+        {
+          "t": 0,
+          "label": "The Founding Four"
+        },
+        {
+          "t": 5,
+          "label": "Starter identities"
+        },
+        {
+          "t": 10,
+          "label": "Round 1"
+        },
+        {
+          "t": 43,
+          "label": "Round 16"
+        },
+        {
+          "t": 78,
+          "label": "Round 32"
+        },
+        {
+          "t": 113,
+          "label": "Round 48"
+        },
+        {
+          "t": 147,
+          "label": "Final selections"
+        },
+        {
+          "t": 148.05,
+          "label": "Completed interactive board"
+        }
+      ],
+      "live": {
+        "scenes": [
+          {
+            "t": 0,
+            "dur": 5,
+            "card": {
+              "title": "The Founding Four Draft",
+              "sub": "251 named Rapters. Four paper starter cards. One RAPP/1 frame per selection.",
+              "note": "Watch-only simulation. No ownership or issuance state changes."
+            }
+          },
+          {
+            "t": 5,
+            "dur": 5,
+            "card": {
+              "title": "Four paper starters enter the draft",
+              "sub": "Molly \u00b7 Overwatch | Sawyer \u00b7 Scout | Evelyn \u00b7 Forge | Kody \u00b7 Sentinel",
+              "note": "Worldseed-001 \u00b7 Everframe-001 \u00b7 Duneledger-001 \u00b7 Mudcrackoracle-001"
+            }
+          },
+          {
+            "t": 10.0,
+            "dur": 0.55,
+            "card": {
+              "title": "#001 Worldseed",
+              "sub": "Molly selects G151 for Overwatch",
+              "note": "Round 1 \u00b7 slot 1 \u00b7 singular \u00b7 Creative & Media \u00b7 frame ac4de0523733f90b\u2026"
+            }
+          },
+          {
+            "t": 10.55,
+            "dur": 0.55,
+            "card": {
+              "title": "#002 Everframe",
+              "sub": "Sawyer selects G251 for Scout",
+              "note": "Round 1 \u00b7 slot 2 \u00b7 singular \u00b7 Quality & Risk \u00b7 frame d13e9bab83dce3b2\u2026"
+            }
+          },
+          {
+            "t": 11.1,
+            "dur": 0.55,
+            "card": {
+              "title": "#003 Duneledger",
+              "sub": "Evelyn selects G005 for Forge",
+              "note": "Round 1 \u00b7 slot 3 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame 42f8b3ac075ee9e8\u2026"
+            }
+          },
+          {
+            "t": 11.65,
+            "dur": 0.55,
+            "card": {
+              "title": "#004 Mudcrackoracle",
+              "sub": "Kody selects G008 for Sentinel",
+              "note": "Round 1 \u00b7 slot 4 \u00b7 ascendant \u00b7 Quality & Risk \u00b7 frame b48e2356ea57f78b\u2026"
+            }
+          },
+          {
+            "t": 12.2,
+            "dur": 0.55,
+            "card": {
+              "title": "#005 Plateaukeeper",
+              "sub": "Molly selects G010 for Overwatch",
+              "note": "Round 2 \u00b7 slot 1 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame aba57413a3cb31eb\u2026"
+            }
+          },
+          {
+            "t": 12.75,
+            "dur": 0.55,
+            "card": {
+              "title": "#006 Sinkholegarden",
+              "sub": "Sawyer selects G011 for Scout",
+              "note": "Round 2 \u00b7 slot 2 \u00b7 ascendant \u00b7 Operations & Support \u00b7 frame 27e4fc04c7f5fd6d\u2026"
+            }
+          },
+          {
+            "t": 13.3,
+            "dur": 0.55,
+            "card": {
+              "title": "#007 Deltalantern",
+              "sub": "Evelyn selects G017 for Forge",
+              "note": "Round 2 \u00b7 slot 3 \u00b7 ascendant \u00b7 Build & Automate \u00b7 frame d780d7b219587957\u2026"
+            }
+          },
+          {
+            "t": 13.85,
+            "dur": 0.55,
+            "card": {
+              "title": "#008 Upwellingfeast",
+              "sub": "Kody selects G018 for Sentinel",
+              "note": "Round 2 \u00b7 slot 4 \u00b7 ascendant \u00b7 Quality & Risk \u00b7 frame 8db2b141e42bf054\u2026"
+            }
+          },
+          {
+            "t": 14.4,
+            "dur": 0.55,
+            "card": {
+              "title": "#009 Geyserpulse",
+              "sub": "Molly selects G020 for Overwatch",
+              "note": "Round 3 \u00b7 slot 1 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame 992c3c589cb4a8df\u2026"
+            }
+          },
+          {
+            "t": 14.95,
+            "dur": 0.55,
+            "card": {
+              "title": "#010 Mangrovecradle",
+              "sub": "Sawyer selects G022 for Scout",
+              "note": "Round 3 \u00b7 slot 2 \u00b7 ascendant \u00b7 Operations & Support \u00b7 frame ec311a3ad04241ad\u2026"
+            }
+          },
+          {
+            "t": 15.5,
+            "dur": 0.55,
+            "card": {
+              "title": "#011 Abysssnow",
+              "sub": "Evelyn selects G023 for Forge",
+              "note": "Round 3 \u00b7 slot 3 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame 199937e67e9d7399\u2026"
+            }
+          },
+          {
+            "t": 16.05,
+            "dur": 0.55,
+            "card": {
+              "title": "#012 Cloudforge",
+              "sub": "Kody selects G025 for Sentinel",
+              "note": "Round 3 \u00b7 slot 4 \u00b7 ascendant \u00b7 Build & Automate \u00b7 frame 441f1cb4ff19dd91\u2026"
+            }
+          },
+          {
+            "t": 16.6,
+            "dur": 0.55,
+            "card": {
+              "title": "#013 Haloring",
+              "sub": "Molly selects G029 for Overwatch",
+              "note": "Round 4 \u00b7 slot 1 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame 0a00121aa716b987\u2026"
+            }
+          },
+          {
+            "t": 17.15,
+            "dur": 0.55,
+            "card": {
+              "title": "#014 Dustscript",
+              "sub": "Sawyer selects G030 for Scout",
+              "note": "Round 4 \u00b7 slot 2 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame e476dfd36c8c3c6c\u2026"
+            }
+          },
+          {
+            "t": 17.7,
+            "dur": 0.55,
+            "card": {
+              "title": "#015 Pressurefall",
+              "sub": "Evelyn selects G036 for Forge",
+              "note": "Round 4 \u00b7 slot 3 \u00b7 ascendant \u00b7 Operations & Support \u00b7 frame 6e7fc8f571f12681\u2026"
+            }
+          },
+          {
+            "t": 18.25,
+            "dur": 0.55,
+            "card": {
+              "title": "#016 Pyrocloud",
+              "sub": "Kody selects G044 for Sentinel",
+              "note": "Round 4 \u00b7 slot 4 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame 2bbb102bb2d76a14\u2026"
+            }
+          },
+          {
+            "t": 18.8,
+            "dur": 0.55,
+            "card": {
+              "title": "#017 Peatglow",
+              "sub": "Molly selects G046 for Overwatch",
+              "note": "Round 5 \u00b7 slot 1 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame db711b1874a9e53f\u2026"
+            }
+          },
+          {
+            "t": 19.35,
+            "dur": 0.55,
+            "card": {
+              "title": "#018 Thermalvent",
+              "sub": "Sawyer selects G047 for Scout",
+              "note": "Round 5 \u00b7 slot 2 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame 5d3f684388f6c023\u2026"
+            }
+          },
+          {
+            "t": 19.9,
+            "dur": 0.55,
+            "card": {
+              "title": "#019 Cinderturn",
+              "sub": "Evelyn selects G048 for Forge",
+              "note": "Round 5 \u00b7 slot 3 \u00b7 ascendant \u00b7 Growth & Commerce \u00b7 frame a7dd67e285626ccb\u2026"
+            }
+          },
+          {
+            "t": 20.45,
+            "dur": 0.55,
+            "card": {
+              "title": "#020 Snowdrift",
+              "sub": "Kody selects G053 for Sentinel",
+              "note": "Round 5 \u00b7 slot 4 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame ea4b1ee8d4a4f4af\u2026"
+            }
+          },
+          {
+            "t": 21.0,
+            "dur": 0.55,
+            "card": {
+              "title": "#021 Rimebranch",
+              "sub": "Molly selects G057 for Overwatch",
+              "note": "Round 6 \u00b7 slot 1 \u00b7 ascendant \u00b7 Quality & Risk \u00b7 frame 668d8c803502ae67\u2026"
+            }
+          },
+          {
+            "t": 21.55,
+            "dur": 0.55,
+            "card": {
+              "title": "#022 Seedbank",
+              "sub": "Sawyer selects G063 for Scout",
+              "note": "Round 6 \u00b7 slot 2 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame c7da58d97ed4c823\u2026"
+            }
+          },
+          {
+            "t": 22.1,
+            "dur": 0.55,
+            "card": {
+              "title": "#023 Fernunfurl",
+              "sub": "Evelyn selects G069 for Forge",
+              "note": "Round 6 \u00b7 slot 3 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame 850f439291fcfb8e\u2026"
+            }
+          },
+          {
+            "t": 22.65,
+            "dur": 0.55,
+            "card": {
+              "title": "#024 Pollinatorpath",
+              "sub": "Kody selects G070 for Sentinel",
+              "note": "Round 6 \u00b7 slot 4 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame 231517be885d62be\u2026"
+            }
+          },
+          {
+            "t": 23.2,
+            "dur": 0.55,
+            "card": {
+              "title": "#025 Rootgraft",
+              "sub": "Molly selects G072 for Overwatch",
+              "note": "Round 7 \u00b7 slot 1 \u00b7 ascendant \u00b7 Operations & Support \u00b7 frame 61dda7cc0e6b9ff2\u2026"
+            }
+          },
+          {
+            "t": 23.75,
+            "dur": 0.55,
+            "card": {
+              "title": "#026 Whalesongway",
+              "sub": "Sawyer selects G076 for Scout",
+              "note": "Round 7 \u00b7 slot 2 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame f14bc91fb13dfcce\u2026"
+            }
+          },
+          {
+            "t": 24.3,
+            "dur": 0.55,
+            "card": {
+              "title": "#027 Turtlecompass",
+              "sub": "Evelyn selects G077 for Forge",
+              "note": "Round 7 \u00b7 slot 3 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame d2e12a1e2fc11a4c\u2026"
+            }
+          },
+          {
+            "t": 24.85,
+            "dur": 0.55,
+            "card": {
+              "title": "#028 Craneskyway",
+              "sub": "Kody selects G079 for Sentinel",
+              "note": "Round 7 \u00b7 slot 4 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame a8a6b9309ac2517a\u2026"
+            }
+          },
+          {
+            "t": 25.4,
+            "dur": 0.55,
+            "card": {
+              "title": "#029 Spiderballoon",
+              "sub": "Molly selects G083 for Overwatch",
+              "note": "Round 8 \u00b7 slot 1 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame faa7ac8ac1466b3b\u2026"
+            }
+          },
+          {
+            "t": 25.95,
+            "dur": 0.55,
+            "card": {
+              "title": "#030 Meteorwake",
+              "sub": "Sawyer selects G086 for Scout",
+              "note": "Round 8 \u00b7 slot 2 \u00b7 ascendant \u00b7 Operations & Support \u00b7 frame 2fd2af3a78e06b31\u2026"
+            }
+          },
+          {
+            "t": 26.5,
+            "dur": 0.55,
+            "card": {
+              "title": "#031 Comettail",
+              "sub": "Evelyn selects G087 for Forge",
+              "note": "Round 8 \u00b7 slot 3 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame e585b25ebbed22c0\u2026"
+            }
+          },
+          {
+            "t": 27.05,
+            "dur": 0.55,
+            "card": {
+              "title": "#032 Starnursery",
+              "sub": "Kody selects G090 for Sentinel",
+              "note": "Round 8 \u00b7 slot 4 \u00b7 ascendant \u00b7 Operations & Support \u00b7 frame 6a8b864539cadddc\u2026"
+            }
+          },
+          {
+            "t": 27.6,
+            "dur": 0.55,
+            "card": {
+              "title": "#033 Planetaryring",
+              "sub": "Molly selects G093 for Overwatch",
+              "note": "Round 9 \u00b7 slot 1 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame 03a221d2f8ec0bce\u2026"
+            }
+          },
+          {
+            "t": 28.15,
+            "dur": 0.55,
+            "card": {
+              "title": "#034 Gravitylens",
+              "sub": "Sawyer selects G096 for Scout",
+              "note": "Round 9 \u00b7 slot 2 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame 96b6e1f990296962\u2026"
+            }
+          },
+          {
+            "t": 28.7,
+            "dur": 0.55,
+            "card": {
+              "title": "#035 Dawnchorus",
+              "sub": "Evelyn selects G103 for Forge",
+              "note": "Round 9 \u00b7 slot 3 \u00b7 ascendant \u00b7 Growth & Commerce \u00b7 frame df0649f1cbe30ab7\u2026"
+            }
+          },
+          {
+            "t": 29.25,
+            "dur": 0.55,
+            "card": {
+              "title": "#036 Bellstone",
+              "sub": "Kody selects G104 for Sentinel",
+              "note": "Round 9 \u00b7 slot 4 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame 86dfe26f6fcdfe4c\u2026"
+            }
+          },
+          {
+            "t": 29.8,
+            "dur": 0.55,
+            "card": {
+              "title": "#037 Singingdune",
+              "sub": "Molly selects G105 for Overwatch",
+              "note": "Round 10 \u00b7 slot 1 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame 5ebe55627910af8b\u2026"
+            }
+          },
+          {
+            "t": 30.35,
+            "dur": 0.55,
+            "card": {
+              "title": "#038 Silencefield",
+              "sub": "Sawyer selects G108 for Scout",
+              "note": "Round 10 \u00b7 slot 2 \u00b7 ascendant \u00b7 Quality & Risk \u00b7 frame ffc01727dd8b21f3\u2026"
+            }
+          },
+          {
+            "t": 30.9,
+            "dur": 0.55,
+            "card": {
+              "title": "#039 Solsticelong",
+              "sub": "Evelyn selects G110 for Forge",
+              "note": "Round 10 \u00b7 slot 3 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame 702d3f4ad8d8eae7\u2026"
+            }
+          },
+          {
+            "t": 31.45,
+            "dur": 0.55,
+            "card": {
+              "title": "#040 Firstfrost",
+              "sub": "Kody selects G111 for Sentinel",
+              "note": "Round 10 \u00b7 slot 4 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame fb79371bca507285\u2026"
+            }
+          },
+          {
+            "t": 32.0,
+            "dur": 0.55,
+            "card": {
+              "title": "#041 Leafturn",
+              "sub": "Molly selects G113 for Overwatch",
+              "note": "Round 11 \u00b7 slot 1 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame c45606f6ffcf34fc\u2026"
+            }
+          },
+          {
+            "t": 32.55,
+            "dur": 0.55,
+            "card": {
+              "title": "#042 Dryseason",
+              "sub": "Sawyer selects G114 for Scout",
+              "note": "Round 11 \u00b7 slot 2 \u00b7 ascendant \u00b7 Operations & Support \u00b7 frame e9389ebf18afe91a\u2026"
+            }
+          },
+          {
+            "t": 33.1,
+            "dur": 0.55,
+            "card": {
+              "title": "#043 Bloomclock",
+              "sub": "Evelyn selects G116 for Forge",
+              "note": "Round 11 \u00b7 slot 3 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame e90d81b038f0159d\u2026"
+            }
+          },
+          {
+            "t": 33.65,
+            "dur": 0.55,
+            "card": {
+              "title": "#044 Bridgememory",
+              "sub": "Kody selects G122 for Sentinel",
+              "note": "Round 11 \u00b7 slot 4 \u00b7 ascendant \u00b7 Build & Automate \u00b7 frame 1ca145d664c603c5\u2026"
+            }
+          },
+          {
+            "t": 34.2,
+            "dur": 0.55,
+            "card": {
+              "title": "#045 Hearthcircle",
+              "sub": "Molly selects G123 for Overwatch",
+              "note": "Round 12 \u00b7 slot 1 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame 4a91fd09892a193a\u2026"
+            }
+          },
+          {
+            "t": 34.75,
+            "dur": 0.55,
+            "card": {
+              "title": "#046 Wayfinderknot",
+              "sub": "Sawyer selects G124 for Scout",
+              "note": "Round 12 \u00b7 slot 2 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame 040346f90982aab2\u2026"
+            }
+          },
+          {
+            "t": 35.3,
+            "dur": 0.55,
+            "card": {
+              "title": "#047 Bellkeeper",
+              "sub": "Evelyn selects G126 for Forge",
+              "note": "Round 12 \u00b7 slot 3 \u00b7 ascendant \u00b7 Growth & Commerce \u00b7 frame 1614a080f69ad55a\u2026"
+            }
+          },
+          {
+            "t": 35.85,
+            "dur": 0.55,
+            "card": {
+              "title": "#048 Seedlibrary",
+              "sub": "Kody selects G129 for Sentinel",
+              "note": "Round 12 \u00b7 slot 4 \u00b7 ascendant \u00b7 Growth & Commerce \u00b7 frame 7294a27480d9160d\u2026"
+            }
+          },
+          {
+            "t": 36.4,
+            "dur": 0.55,
+            "card": {
+              "title": "#049 Festivalrain",
+              "sub": "Molly selects G131 for Overwatch",
+              "note": "Round 13 \u00b7 slot 1 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame 1de51e9b4fcb64e0\u2026"
+            }
+          },
+          {
+            "t": 36.95,
+            "dur": 0.55,
+            "card": {
+              "title": "#050 Heatisland",
+              "sub": "Sawyer selects G137 for Scout",
+              "note": "Round 13 \u00b7 slot 2 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame 8210ac1a6fc874e9\u2026"
+            }
+          },
+          {
+            "t": 37.5,
+            "dur": 0.55,
+            "card": {
+              "title": "#051 Thresholdspiral",
+              "sub": "Evelyn selects G145 for Forge",
+              "note": "Round 13 \u00b7 slot 3 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame 441c90220a512c4a\u2026"
+            }
+          },
+          {
+            "t": 38.05,
+            "dur": 0.55,
+            "card": {
+              "title": "#052 Mirrorgate",
+              "sub": "Kody selects G147 for Sentinel",
+              "note": "Round 13 \u00b7 slot 4 \u00b7 ascendant \u00b7 Quality & Risk \u00b7 frame b5a93bfa7fdd3a1e\u2026"
+            }
+          },
+          {
+            "t": 38.6,
+            "dur": 0.55,
+            "card": {
+              "title": "#053 Memoryorbit",
+              "sub": "Molly selects G149 for Overwatch",
+              "note": "Round 14 \u00b7 slot 1 \u00b7 ascendant \u00b7 Growth & Commerce \u00b7 frame 3031e455d9bb7838\u2026"
+            }
+          },
+          {
+            "t": 39.15,
+            "dur": 0.55,
+            "card": {
+              "title": "#054 Trenchnight",
+              "sub": "Sawyer selects G152 for Scout",
+              "note": "Round 14 \u00b7 slot 2 \u00b7 ascendant \u00b7 Quality & Risk \u00b7 frame 282694fc84832bca\u2026"
+            }
+          },
+          {
+            "t": 39.7,
+            "dur": 0.55,
+            "card": {
+              "title": "#055 Lanternshoal",
+              "sub": "Evelyn selects G154 for Forge",
+              "note": "Round 14 \u00b7 slot 3 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame 6f776086dab988ca\u2026"
+            }
+          },
+          {
+            "t": 40.25,
+            "dur": 0.55,
+            "card": {
+              "title": "#056 Sargassumraft",
+              "sub": "Kody selects G159 for Sentinel",
+              "note": "Round 14 \u00b7 slot 4 \u00b7 ascendant \u00b7 Quality & Risk \u00b7 frame 99908f176fd92151\u2026"
+            }
+          },
+          {
+            "t": 40.8,
+            "dur": 0.55,
+            "card": {
+              "title": "#057 Pearlcurrent",
+              "sub": "Molly selects G163 for Overwatch",
+              "note": "Round 15 \u00b7 slot 1 \u00b7 ascendant \u00b7 Quality & Risk \u00b7 frame f391b9d0c837a0db\u2026"
+            }
+          },
+          {
+            "t": 41.35,
+            "dur": 0.55,
+            "card": {
+              "title": "#058 Pollenwind",
+              "sub": "Sawyer selects G164 for Scout",
+              "note": "Round 15 \u00b7 slot 2 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame 00dfefdabda339ef\u2026"
+            }
+          },
+          {
+            "t": 41.9,
+            "dur": 0.55,
+            "card": {
+              "title": "#059 Sporecloud",
+              "sub": "Evelyn selects G165 for Forge",
+              "note": "Round 15 \u00b7 slot 3 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame 28ab57b71a33e439\u2026"
+            }
+          },
+          {
+            "t": 42.45,
+            "dur": 0.55,
+            "card": {
+              "title": "#060 Seasalthalo",
+              "sub": "Kody selects G166 for Sentinel",
+              "note": "Round 15 \u00b7 slot 4 \u00b7 ascendant \u00b7 Growth & Commerce \u00b7 frame ba4987193a3d026a\u2026"
+            }
+          },
+          {
+            "t": 43.0,
+            "dur": 0.55,
+            "card": {
+              "title": "#061 Ozoneveil",
+              "sub": "Molly selects G168 for Overwatch",
+              "note": "Round 16 \u00b7 slot 1 \u00b7 ascendant \u00b7 Build & Automate \u00b7 frame e929642d43db7046\u2026"
+            }
+          },
+          {
+            "t": 43.55,
+            "dur": 0.55,
+            "card": {
+              "title": "#062 Wadicall",
+              "sub": "Sawyer selects G176 for Scout",
+              "note": "Round 16 \u00b7 slot 2 \u00b7 ascendant \u00b7 Quality & Risk \u00b7 frame bdd1a9ea5ef5bc4e\u2026"
+            }
+          },
+          {
+            "t": 44.1,
+            "dur": 0.55,
+            "card": {
+              "title": "#063 Grasswave",
+              "sub": "Evelyn selects G179 for Forge",
+              "note": "Round 16 \u00b7 slot 3 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame d9ef805e1c45ae76\u2026"
+            }
+          },
+          {
+            "t": 44.65,
+            "dur": 0.55,
+            "card": {
+              "title": "#064 Mirageroad",
+              "sub": "Kody selects G183 for Sentinel",
+              "note": "Round 16 \u00b7 slot 4 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame 96a9e85cc653e755\u2026"
+            }
+          },
+          {
+            "t": 45.2,
+            "dur": 0.55,
+            "card": {
+              "title": "#065 Nightdesert",
+              "sub": "Molly selects G186 for Overwatch",
+              "note": "Round 17 \u00b7 slot 1 \u00b7 ascendant \u00b7 Build & Automate \u00b7 frame 907646ed854ea3b7\u2026"
+            }
+          },
+          {
+            "t": 45.75,
+            "dur": 0.55,
+            "card": {
+              "title": "#066 Reedfilter",
+              "sub": "Sawyer selects G190 for Scout",
+              "note": "Round 17 \u00b7 slot 2 \u00b7 ascendant \u00b7 Operations & Support \u00b7 frame 803eb00f84c51080\u2026"
+            }
+          },
+          {
+            "t": 46.3,
+            "dur": 0.55,
+            "card": {
+              "title": "#067 Beavermeadow",
+              "sub": "Evelyn selects G193 for Forge",
+              "note": "Round 17 \u00b7 slot 3 \u00b7 ascendant \u00b7 Build & Automate \u00b7 frame 3f02b6d72f182668\u2026"
+            }
+          },
+          {
+            "t": 46.85,
+            "dur": 0.55,
+            "card": {
+              "title": "#068 Limestonewell",
+              "sub": "Kody selects G195 for Sentinel",
+              "note": "Round 17 \u00b7 slot 4 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame 3662e264142e040f\u2026"
+            }
+          },
+          {
+            "t": 47.4,
+            "dur": 0.55,
+            "card": {
+              "title": "#069 Mosswater",
+              "sub": "Molly selects G196 for Overwatch",
+              "note": "Round 18 \u00b7 slot 1 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame 3c7e29c911c8f031\u2026"
+            }
+          },
+          {
+            "t": 47.95,
+            "dur": 0.55,
+            "card": {
+              "title": "#070 Yeastbloom",
+              "sub": "Sawyer selects G202 for Scout",
+              "note": "Round 18 \u00b7 slot 2 \u00b7 ascendant \u00b7 Quality & Risk \u00b7 frame e5d23d49e8f9edf8\u2026"
+            }
+          },
+          {
+            "t": 48.5,
+            "dur": 0.55,
+            "card": {
+              "title": "#071 Gutgarden",
+              "sub": "Evelyn selects G205 for Forge",
+              "note": "Round 18 \u00b7 slot 3 \u00b7 ascendant \u00b7 Operations & Support \u00b7 frame ec8a1c8f7b1bb638\u2026"
+            }
+          },
+          {
+            "t": 49.05,
+            "dur": 0.55,
+            "card": {
+              "title": "#072 Diatomglass",
+              "sub": "Kody selects G210 for Sentinel",
+              "note": "Round 18 \u00b7 slot 4 \u00b7 ascendant \u00b7 Build & Automate \u00b7 frame 56a77694004f7c36\u2026"
+            }
+          },
+          {
+            "t": 49.6,
+            "dur": 0.55,
+            "card": {
+              "title": "#073 Coldcurrent",
+              "sub": "Molly selects G218 for Overwatch",
+              "note": "Round 19 \u00b7 slot 1 \u00b7 ascendant \u00b7 Operations & Support \u00b7 frame a13fd2fbf8d4c258\u2026"
+            }
+          },
+          {
+            "t": 50.15,
+            "dur": 0.55,
+            "card": {
+              "title": "#074 Quantumwell",
+              "sub": "Sawyer selects G222 for Scout",
+              "note": "Round 19 \u00b7 slot 2 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame 3a582a9722e19029\u2026"
+            }
+          },
+          {
+            "t": 50.7,
+            "dur": 0.55,
+            "card": {
+              "title": "#075 Commonswell",
+              "sub": "Evelyn selects G225 for Forge",
+              "note": "Round 19 \u00b7 slot 3 \u00b7 ascendant \u00b7 Quality & Risk \u00b7 frame 8f73b1510b6e665e\u2026"
+            }
+          },
+          {
+            "t": 51.25,
+            "dur": 0.55,
+            "card": {
+              "title": "#076 Assemblyring",
+              "sub": "Kody selects G228 for Sentinel",
+              "note": "Round 19 \u00b7 slot 4 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame ea9d1fe3e4089ce9\u2026"
+            }
+          },
+          {
+            "t": 51.8,
+            "dur": 0.55,
+            "card": {
+              "title": "#077 Watershare",
+              "sub": "Molly selects G229 for Overwatch",
+              "note": "Round 20 \u00b7 slot 1 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame cb02883ecbb18cd2\u2026"
+            }
+          },
+          {
+            "t": 52.35,
+            "dur": 0.55,
+            "card": {
+              "title": "#078 Seedexchange",
+              "sub": "Sawyer selects G230 for Scout",
+              "note": "Round 20 \u00b7 slot 2 \u00b7 ascendant \u00b7 Quality & Risk \u00b7 frame 7ab7875ed7fb23cf\u2026"
+            }
+          },
+          {
+            "t": 52.9,
+            "dur": 0.55,
+            "card": {
+              "title": "#079 Nightmarket",
+              "sub": "Evelyn selects G232 for Forge",
+              "note": "Round 20 \u00b7 slot 3 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame aacd1eba7eb95077\u2026"
+            }
+          },
+          {
+            "t": 53.45,
+            "dur": 0.55,
+            "card": {
+              "title": "#080 Communityoven",
+              "sub": "Kody selects G234 for Sentinel",
+              "note": "Round 20 \u00b7 slot 4 \u00b7 ascendant \u00b7 Build & Automate \u00b7 frame c03d9329b2dbb681\u2026"
+            }
+          },
+          {
+            "t": 54.0,
+            "dur": 0.55,
+            "card": {
+              "title": "#081 Archivebridge",
+              "sub": "Molly selects G235 for Overwatch",
+              "note": "Round 21 \u00b7 slot 1 \u00b7 ascendant \u00b7 Quality & Risk \u00b7 frame 40f79efa0631281e\u2026"
+            }
+          },
+          {
+            "t": 54.55,
+            "dur": 0.55,
+            "card": {
+              "title": "#082 Counterfactual",
+              "sub": "Sawyer selects G236 for Scout",
+              "note": "Round 21 \u00b7 slot 2 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame 5c69e490ae2b2d91\u2026"
+            }
+          },
+          {
+            "t": 55.1,
+            "dur": 0.55,
+            "card": {
+              "title": "#083 Possibilityfield",
+              "sub": "Evelyn selects G237 for Forge",
+              "note": "Round 21 \u00b7 slot 3 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame 553f7e6aa7723428\u2026"
+            }
+          },
+          {
+            "t": 55.65,
+            "dur": 0.55,
+            "card": {
+              "title": "#084 Probabilityrain",
+              "sub": "Kody selects G246 for Sentinel",
+              "note": "Round 21 \u00b7 slot 4 \u00b7 ascendant \u00b7 Creative & Media \u00b7 frame 0f6d9da9436dc639\u2026"
+            }
+          },
+          {
+            "t": 56.2,
+            "dur": 0.55,
+            "card": {
+              "title": "#085 Recursivenest",
+              "sub": "Molly selects G247 for Overwatch",
+              "note": "Round 22 \u00b7 slot 1 \u00b7 ascendant \u00b7 Research & Intelligence \u00b7 frame 310f22ea4515228d\u2026"
+            }
+          },
+          {
+            "t": 56.75,
+            "dur": 0.55,
+            "card": {
+              "title": "#086 Faultsong",
+              "sub": "Sawyer selects G002 for Scout",
+              "note": "Round 22 \u00b7 slot 2 \u00b7 journey \u00b7 Operations & Support \u00b7 frame 3260bed1386a958c\u2026"
+            }
+          },
+          {
+            "t": 57.3,
+            "dur": 0.55,
+            "card": {
+              "title": "#087 Basaltbloom",
+              "sub": "Evelyn selects G003 for Forge",
+              "note": "Round 22 \u00b7 slot 3 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame 5ad80ff877e08e8d\u2026"
+            }
+          },
+          {
+            "t": 57.85,
+            "dur": 0.55,
+            "card": {
+              "title": "#088 Canyonmemory",
+              "sub": "Kody selects G004 for Sentinel",
+              "note": "Round 22 \u00b7 slot 4 \u00b7 journey \u00b7 Creative & Media \u00b7 frame 806361713c19606f\u2026"
+            }
+          },
+          {
+            "t": 58.4,
+            "dur": 0.55,
+            "card": {
+              "title": "#089 Karstlantern",
+              "sub": "Molly selects G006 for Overwatch",
+              "note": "Round 23 \u00b7 slot 1 \u00b7 journey \u00b7 Build & Automate \u00b7 frame 4cef2a37b169e4ea\u2026"
+            }
+          },
+          {
+            "t": 58.95,
+            "dur": 0.55,
+            "card": {
+              "title": "#090 Crystalpressure",
+              "sub": "Sawyer selects G007 for Scout",
+              "note": "Round 23 \u00b7 slot 2 \u00b7 journey \u00b7 Operations & Support \u00b7 frame f194e1273b855332\u2026"
+            }
+          },
+          {
+            "t": 59.5,
+            "dur": 0.55,
+            "card": {
+              "title": "#091 Magnetstone",
+              "sub": "Evelyn selects G012 for Forge",
+              "note": "Round 23 \u00b7 slot 3 \u00b7 journey \u00b7 Creative & Media \u00b7 frame 7cb49b4f4a468057\u2026"
+            }
+          },
+          {
+            "t": 60.05,
+            "dur": 0.55,
+            "card": {
+              "title": "#092 Riverbraid",
+              "sub": "Kody selects G015 for Sentinel",
+              "note": "Round 23 \u00b7 slot 4 \u00b7 journey \u00b7 Growth & Commerce \u00b7 frame 1b9b5f68b6858336\u2026"
+            }
+          },
+          {
+            "t": 60.6,
+            "dur": 0.55,
+            "card": {
+              "title": "#093 Fogcatcher",
+              "sub": "Molly selects G019 for Overwatch",
+              "note": "Round 24 \u00b7 slot 1 \u00b7 journey \u00b7 Build & Automate \u00b7 frame 56e4ad7c60285d98\u2026"
+            }
+          },
+          {
+            "t": 61.15,
+            "dur": 0.55,
+            "card": {
+              "title": "#094 Coralclock",
+              "sub": "Sawyer selects G021 for Scout",
+              "note": "Round 24 \u00b7 slot 2 \u00b7 journey \u00b7 Creative & Media \u00b7 frame 9139b5d5735a2a78\u2026"
+            }
+          },
+          {
+            "t": 61.7,
+            "dur": 0.55,
+            "card": {
+              "title": "#095 Thunderhead",
+              "sub": "Evelyn selects G026 for Forge",
+              "note": "Round 24 \u00b7 slot 3 \u00b7 journey \u00b7 Quality & Risk \u00b7 frame c53cc106fa3b2f60\u2026"
+            }
+          },
+          {
+            "t": 62.25,
+            "dur": 0.55,
+            "card": {
+              "title": "#096 Cycloneeye",
+              "sub": "Kody selects G031 for Sentinel",
+              "note": "Round 24 \u00b7 slot 4 \u00b7 journey \u00b7 Operations & Support \u00b7 frame b7bdb0c6d43e7438\u2026"
+            }
+          },
+          {
+            "t": 62.8,
+            "dur": 0.55,
+            "card": {
+              "title": "#097 Sundoggate",
+              "sub": "Molly selects G035 for Overwatch",
+              "note": "Round 25 \u00b7 slot 1 \u00b7 journey \u00b7 Quality & Risk \u00b7 frame 149b20d0050088be\u2026"
+            }
+          },
+          {
+            "t": 63.35,
+            "dur": 0.55,
+            "card": {
+              "title": "#098 Asharchive",
+              "sub": "Sawyer selects G039 for Scout",
+              "note": "Round 25 \u00b7 slot 2 \u00b7 journey \u00b7 Operations & Support \u00b7 frame ff4a373c8a146fde\u2026"
+            }
+          },
+          {
+            "t": 63.9,
+            "dur": 0.55,
+            "card": {
+              "title": "#099 Volcanobreath",
+              "sub": "Evelyn selects G040 for Forge",
+              "note": "Round 25 \u00b7 slot 3 \u00b7 journey \u00b7 Build & Automate \u00b7 frame 992417b04adc38bc\u2026"
+            }
+          },
+          {
+            "t": 64.45,
+            "dur": 0.55,
+            "card": {
+              "title": "#100 Charcoalnursery",
+              "sub": "Kody selects G041 for Sentinel",
+              "note": "Round 25 \u00b7 slot 4 \u00b7 journey \u00b7 Growth & Commerce \u00b7 frame 6e7e984dab02b8f1\u2026"
+            }
+          },
+          {
+            "t": 65.0,
+            "dur": 0.55,
+            "card": {
+              "title": "#101 Prairiereturn",
+              "sub": "Molly selects G045 for Overwatch",
+              "note": "Round 26 \u00b7 slot 1 \u00b7 journey \u00b7 Creative & Media \u00b7 frame 14a6cc1b80eea36c\u2026"
+            }
+          },
+          {
+            "t": 65.55,
+            "dur": 0.55,
+            "card": {
+              "title": "#102 Icequake",
+              "sub": "Sawyer selects G052 for Scout",
+              "note": "Round 26 \u00b7 slot 2 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame 2f105bf7414e541a\u2026"
+            }
+          },
+          {
+            "t": 66.1,
+            "dur": 0.55,
+            "card": {
+              "title": "#103 Permafrostvault",
+              "sub": "Evelyn selects G054 for Forge",
+              "note": "Round 26 \u00b7 slot 3 \u00b7 journey \u00b7 Operations & Support \u00b7 frame d1073bf3b1666dc6\u2026"
+            }
+          },
+          {
+            "t": 66.65,
+            "dur": 0.55,
+            "card": {
+              "title": "#104 Calvingedge",
+              "sub": "Kody selects G056 for Sentinel",
+              "note": "Round 26 \u00b7 slot 4 \u00b7 journey \u00b7 Operations & Support \u00b7 frame 934170ff1bf0bfec\u2026"
+            }
+          },
+          {
+            "t": 67.2,
+            "dur": 0.55,
+            "card": {
+              "title": "#105 Meltwaterpulse",
+              "sub": "Molly selects G059 for Overwatch",
+              "note": "Round 27 \u00b7 slot 1 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame 15a0f1e402b76dda\u2026"
+            }
+          },
+          {
+            "t": 67.75,
+            "dur": 0.55,
+            "card": {
+              "title": "#106 Diamonddust",
+              "sub": "Sawyer selects G060 for Scout",
+              "note": "Round 27 \u00b7 slot 2 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame 00252e7587cb289b\u2026"
+            }
+          },
+          {
+            "t": 68.3,
+            "dur": 0.55,
+            "card": {
+              "title": "#107 Mycelialmap",
+              "sub": "Evelyn selects G061 for Forge",
+              "note": "Round 27 \u00b7 slot 3 \u00b7 journey \u00b7 Creative & Media \u00b7 frame 4538c4f7a63fdf6d\u2026"
+            }
+          },
+          {
+            "t": 68.85,
+            "dur": 0.55,
+            "card": {
+              "title": "#108 Canopyrelay",
+              "sub": "Kody selects G062 for Sentinel",
+              "note": "Round 27 \u00b7 slot 4 \u00b7 journey \u00b7 Creative & Media \u00b7 frame 1ac6b60323a15e5e\u2026"
+            }
+          },
+          {
+            "t": 69.4,
+            "dur": 0.55,
+            "card": {
+              "title": "#109 Baobabwell",
+              "sub": "Molly selects G065 for Overwatch",
+              "note": "Round 28 \u00b7 slot 1 \u00b7 journey \u00b7 Growth & Commerce \u00b7 frame dcbe8de2e3437ff7\u2026"
+            }
+          },
+          {
+            "t": 69.95,
+            "dur": 0.55,
+            "card": {
+              "title": "#110 Lichenpioneer",
+              "sub": "Sawyer selects G067 for Scout",
+              "note": "Round 28 \u00b7 slot 2 \u00b7 journey \u00b7 Build & Automate \u00b7 frame b6a26b569e1fe8a1\u2026"
+            }
+          },
+          {
+            "t": 70.5,
+            "dur": 0.55,
+            "card": {
+              "title": "#111 Murmuration",
+              "sub": "Evelyn selects G073 for Forge",
+              "note": "Round 28 \u00b7 slot 3 \u00b7 journey \u00b7 Growth & Commerce \u00b7 frame c942f85f976284ef\u2026"
+            }
+          },
+          {
+            "t": 71.05,
+            "dur": 0.55,
+            "card": {
+              "title": "#112 Monarchroute",
+              "sub": "Kody selects G074 for Sentinel",
+              "note": "Round 28 \u00b7 slot 4 \u00b7 journey \u00b7 Growth & Commerce \u00b7 frame 5c0dfe113b31456c\u2026"
+            }
+          },
+          {
+            "t": 71.6,
+            "dur": 0.55,
+            "card": {
+              "title": "#113 Cariboutrail",
+              "sub": "Molly selects G078 for Overwatch",
+              "note": "Round 29 \u00b7 slot 1 \u00b7 journey \u00b7 Creative & Media \u00b7 frame 91586bd76b8b7e81\u2026"
+            }
+          },
+          {
+            "t": 72.15,
+            "dur": 0.55,
+            "card": {
+              "title": "#114 Fireflysync",
+              "sub": "Sawyer selects G080 for Scout",
+              "note": "Round 29 \u00b7 slot 2 \u00b7 journey \u00b7 Quality & Risk \u00b7 frame 92d4b1fbe5d4c4ee\u2026"
+            }
+          },
+          {
+            "t": 72.7,
+            "dur": 0.55,
+            "card": {
+              "title": "#115 Sardinesphere",
+              "sub": "Evelyn selects G082 for Forge",
+              "note": "Round 29 \u00b7 slot 3 \u00b7 journey \u00b7 Growth & Commerce \u00b7 frame 9c720a29dc57e17e\u2026"
+            }
+          },
+          {
+            "t": 73.25,
+            "dur": 0.55,
+            "card": {
+              "title": "#116 Termitecathedral",
+              "sub": "Kody selects G084 for Sentinel",
+              "note": "Round 29 \u00b7 slot 4 \u00b7 journey \u00b7 Build & Automate \u00b7 frame 471064c6765eec96\u2026"
+            }
+          },
+          {
+            "t": 73.8,
+            "dur": 0.55,
+            "card": {
+              "title": "#117 Solarflare",
+              "sub": "Molly selects G089 for Overwatch",
+              "note": "Round 30 \u00b7 slot 1 \u00b7 journey \u00b7 Quality & Risk \u00b7 frame f99cb309351268d9\u2026"
+            }
+          },
+          {
+            "t": 74.35,
+            "dur": 0.55,
+            "card": {
+              "title": "#118 Pulsarclock",
+              "sub": "Sawyer selects G091 for Scout",
+              "note": "Round 30 \u00b7 slot 2 \u00b7 journey \u00b7 Creative & Media \u00b7 frame 95b280abd31babfa\u2026"
+            }
+          },
+          {
+            "t": 74.9,
+            "dur": 0.55,
+            "card": {
+              "title": "#119 Nightglow",
+              "sub": "Evelyn selects G095 for Forge",
+              "note": "Round 30 \u00b7 slot 3 \u00b7 journey \u00b7 Creative & Media \u00b7 frame f6e6d569987d09cd\u2026"
+            }
+          },
+          {
+            "t": 75.45,
+            "dur": 0.55,
+            "card": {
+              "title": "#120 Echocave",
+              "sub": "Kody selects G098 for Sentinel",
+              "note": "Round 30 \u00b7 slot 4 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame db9346a3b998d7ac\u2026"
+            }
+          },
+          {
+            "t": 76.0,
+            "dur": 0.55,
+            "card": {
+              "title": "#121 Infrasoundpath",
+              "sub": "Molly selects G099 for Overwatch",
+              "note": "Round 31 \u00b7 slot 1 \u00b7 journey \u00b7 Operations & Support \u00b7 frame 206ea52572651cdb\u2026"
+            }
+          },
+          {
+            "t": 76.55,
+            "dur": 0.55,
+            "card": {
+              "title": "#122 Cicadacycle",
+              "sub": "Sawyer selects G100 for Scout",
+              "note": "Round 31 \u00b7 slot 2 \u00b7 journey \u00b7 Creative & Media \u00b7 frame 90df98e73b8ea570\u2026"
+            }
+          },
+          {
+            "t": 77.1,
+            "dur": 0.55,
+            "card": {
+              "title": "#123 Seismichum",
+              "sub": "Evelyn selects G101 for Forge",
+              "note": "Round 31 \u00b7 slot 3 \u00b7 journey \u00b7 Build & Automate \u00b7 frame f4774c952853f5b0\u2026"
+            }
+          },
+          {
+            "t": 77.65,
+            "dur": 0.55,
+            "card": {
+              "title": "#124 Radioaurora",
+              "sub": "Kody selects G102 for Sentinel",
+              "note": "Round 31 \u00b7 slot 4 \u00b7 journey \u00b7 Quality & Risk \u00b7 frame 01149c688e25c8f5\u2026"
+            }
+          },
+          {
+            "t": 78.2,
+            "dur": 0.55,
+            "card": {
+              "title": "#125 Equinoxbalance",
+              "sub": "Molly selects G109 for Overwatch",
+              "note": "Round 32 \u00b7 slot 1 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame b9b61520f565099f\u2026"
+            }
+          },
+          {
+            "t": 78.75,
+            "dur": 0.55,
+            "card": {
+              "title": "#126 Floodpulse",
+              "sub": "Sawyer selects G115 for Scout",
+              "note": "Round 32 \u00b7 slot 2 \u00b7 journey \u00b7 Growth & Commerce \u00b7 frame 5e9585eaa07e44a5\u2026"
+            }
+          },
+          {
+            "t": 79.3,
+            "dur": 0.55,
+            "card": {
+              "title": "#127 Ephemeralpool",
+              "sub": "Evelyn selects G120 for Forge",
+              "note": "Round 32 \u00b7 slot 3 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame befaedb332059cac\u2026"
+            }
+          },
+          {
+            "t": 79.85,
+            "dur": 0.55,
+            "card": {
+              "title": "#128 Paperfleet",
+              "sub": "Kody selects G127 for Sentinel",
+              "note": "Round 32 \u00b7 slot 4 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame 8ac69116c994c3b4\u2026"
+            }
+          },
+          {
+            "t": 80.4,
+            "dur": 0.55,
+            "card": {
+              "title": "#129 Nightwatch",
+              "sub": "Molly selects G130 for Overwatch",
+              "note": "Round 33 \u00b7 slot 1 \u00b7 journey \u00b7 Operations & Support \u00b7 frame a02dd63ec99396d8\u2026"
+            }
+          },
+          {
+            "t": 80.95,
+            "dur": 0.55,
+            "card": {
+              "title": "#130 Rooftopmeadow",
+              "sub": "Sawyer selects G133 for Scout",
+              "note": "Round 33 \u00b7 slot 2 \u00b7 journey \u00b7 Creative & Media \u00b7 frame 0d31362678cb8e30\u2026"
+            }
+          },
+          {
+            "t": 81.5,
+            "dur": 0.55,
+            "card": {
+              "title": "#131 Neonrain",
+              "sub": "Evelyn selects G135 for Forge",
+              "note": "Round 33 \u00b7 slot 3 \u00b7 journey \u00b7 Quality & Risk \u00b7 frame 309845aca366d50f\u2026"
+            }
+          },
+          {
+            "t": 82.05,
+            "dur": 0.55,
+            "card": {
+              "title": "#132 Nightgrid",
+              "sub": "Kody selects G138 for Sentinel",
+              "note": "Round 33 \u00b7 slot 4 \u00b7 journey \u00b7 Quality & Risk \u00b7 frame 6707716a66ee16ff\u2026"
+            }
+          },
+          {
+            "t": 82.6,
+            "dur": 0.55,
+            "card": {
+              "title": "#133 Dreamcurrent",
+              "sub": "Molly selects G150 for Overwatch",
+              "note": "Round 34 \u00b7 slot 1 \u00b7 journey \u00b7 Creative & Media \u00b7 frame 8ca774ef6fb2aff1\u2026"
+            }
+          },
+          {
+            "t": 83.15,
+            "dur": 0.55,
+            "card": {
+              "title": "#134 Chemospring",
+              "sub": "Sawyer selects G153 for Scout",
+              "note": "Round 34 \u00b7 slot 2 \u00b7 journey \u00b7 Build & Automate \u00b7 frame 926a4c6470921da8\u2026"
+            }
+          },
+          {
+            "t": 83.7,
+            "dur": 0.55,
+            "card": {
+              "title": "#135 Seamountgarden",
+              "sub": "Evelyn selects G156 for Forge",
+              "note": "Round 34 \u00b7 slot 3 \u00b7 journey \u00b7 Build & Automate \u00b7 frame d07077eb92ecceda\u2026"
+            }
+          },
+          {
+            "t": 84.25,
+            "dur": 0.55,
+            "card": {
+              "title": "#136 Thermoclineveil",
+              "sub": "Kody selects G160 for Sentinel",
+              "note": "Round 34 \u00b7 slot 4 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame 6f9648d97925056a\u2026"
+            }
+          },
+          {
+            "t": 84.8,
+            "dur": 0.55,
+            "card": {
+              "title": "#137 Coldseep",
+              "sub": "Molly selects G161 for Overwatch",
+              "note": "Round 35 \u00b7 slot 1 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame 74d9181e8650a712\u2026"
+            }
+          },
+          {
+            "t": 85.35,
+            "dur": 0.55,
+            "card": {
+              "title": "#138 Warmdescent",
+              "sub": "Sawyer selects G172 for Scout",
+              "note": "Round 35 \u00b7 slot 2 \u00b7 journey \u00b7 Quality & Risk \u00b7 frame 2a7c1da6ceff7d8e\u2026"
+            }
+          },
+          {
+            "t": 85.9,
+            "dur": 0.55,
+            "card": {
+              "title": "#139 Katabaticrun",
+              "sub": "Evelyn selects G173 for Forge",
+              "note": "Round 35 \u00b7 slot 3 \u00b7 journey \u00b7 Operations & Support \u00b7 frame fe7135622496365f\u2026"
+            }
+          },
+          {
+            "t": 86.45,
+            "dur": 0.55,
+            "card": {
+              "title": "#140 Heatlightning",
+              "sub": "Kody selects G174 for Sentinel",
+              "note": "Round 35 \u00b7 slot 4 \u00b7 journey \u00b7 Growth & Commerce \u00b7 frame 9580b95fdd3851f0\u2026"
+            }
+          },
+          {
+            "t": 87.0,
+            "dur": 0.55,
+            "card": {
+              "title": "#141 Dustbloom",
+              "sub": "Molly selects G180 for Overwatch",
+              "note": "Round 36 \u00b7 slot 1 \u00b7 journey \u00b7 Operations & Support \u00b7 frame dbb923788e98f7a0\u2026"
+            }
+          },
+          {
+            "t": 87.55,
+            "dur": 0.55,
+            "card": {
+              "title": "#142 Thornshade",
+              "sub": "Sawyer selects G181 for Scout",
+              "note": "Round 36 \u00b7 slot 2 \u00b7 journey \u00b7 Quality & Risk \u00b7 frame 8ffdb0103302344b\u2026"
+            }
+          },
+          {
+            "t": 88.1,
+            "dur": 0.55,
+            "card": {
+              "title": "#143 Savannapulse",
+              "sub": "Evelyn selects G182 for Forge",
+              "note": "Round 36 \u00b7 slot 3 \u00b7 journey \u00b7 Growth & Commerce \u00b7 frame db513a1a3a51eac3\u2026"
+            }
+          },
+          {
+            "t": 88.65,
+            "dur": 0.55,
+            "card": {
+              "title": "#144 Sandgrousewell",
+              "sub": "Kody selects G184 for Sentinel",
+              "note": "Round 36 \u00b7 slot 4 \u00b7 journey \u00b7 Build & Automate \u00b7 frame 142d8b0e39221eeb\u2026"
+            }
+          },
+          {
+            "t": 89.2,
+            "dur": 0.55,
+            "card": {
+              "title": "#145 Stonepavement",
+              "sub": "Molly selects G187 for Overwatch",
+              "note": "Round 37 \u00b7 slot 1 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame 237d8c25844bbc02\u2026"
+            }
+          },
+          {
+            "t": 89.75,
+            "dur": 0.55,
+            "card": {
+              "title": "#146 Peatmirror",
+              "sub": "Sawyer selects G188 for Scout",
+              "note": "Round 37 \u00b7 slot 2 \u00b7 journey \u00b7 Creative & Media \u00b7 frame a649b8ec7b213eb1\u2026"
+            }
+          },
+          {
+            "t": 90.3,
+            "dur": 0.55,
+            "card": {
+              "title": "#147 Oxbowmemory",
+              "sub": "Evelyn selects G191 for Forge",
+              "note": "Round 37 \u00b7 slot 3 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame 1cbf89fb5221255e\u2026"
+            }
+          },
+          {
+            "t": 90.85,
+            "dur": 0.55,
+            "card": {
+              "title": "#148 Springhead",
+              "sub": "Kody selects G194 for Sentinel",
+              "note": "Round 37 \u00b7 slot 4 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame b285d03e4d747f8b\u2026"
+            }
+          },
+          {
+            "t": 91.4,
+            "dur": 0.55,
+            "card": {
+              "title": "#149 Marshfire",
+              "sub": "Molly selects G197 for Overwatch",
+              "note": "Round 38 \u00b7 slot 1 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame 9b6dad545907a0f2\u2026"
+            }
+          },
+          {
+            "t": 91.95,
+            "dur": 0.55,
+            "card": {
+              "title": "#150 Laketurnover",
+              "sub": "Sawyer selects G199 for Scout",
+              "note": "Round 38 \u00b7 slot 2 \u00b7 journey \u00b7 Growth & Commerce \u00b7 frame 89af5ae00b19f892\u2026"
+            }
+          },
+          {
+            "t": 92.5,
+            "dur": 0.55,
+            "card": {
+              "title": "#151 Sporeprint",
+              "sub": "Evelyn selects G200 for Forge",
+              "note": "Round 38 \u00b7 slot 3 \u00b7 journey \u00b7 Creative & Media \u00b7 frame 7f3152c5da928579\u2026"
+            }
+          },
+          {
+            "t": 93.05,
+            "dur": 0.55,
+            "card": {
+              "title": "#152 Quorumsignal",
+              "sub": "Kody selects G204 for Sentinel",
+              "note": "Round 38 \u00b7 slot 4 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame a25e19533f09b971\u2026"
+            }
+          },
+          {
+            "t": 93.6,
+            "dur": 0.55,
+            "card": {
+              "title": "#153 Compostheat",
+              "sub": "Molly selects G206 for Overwatch",
+              "note": "Round 39 \u00b7 slot 1 \u00b7 journey \u00b7 Build & Automate \u00b7 frame 3092f618ea164cb3\u2026"
+            }
+          },
+          {
+            "t": 94.15,
+            "dur": 0.55,
+            "card": {
+              "title": "#154 Nitrogenknot",
+              "sub": "Sawyer selects G208 for Scout",
+              "note": "Round 39 \u00b7 slot 2 \u00b7 journey \u00b7 Creative & Media \u00b7 frame 29fd20cf7d0297c2\u2026"
+            }
+          },
+          {
+            "t": 94.7,
+            "dur": 0.55,
+            "card": {
+              "title": "#155 Phagegate",
+              "sub": "Evelyn selects G211 for Forge",
+              "note": "Round 39 \u00b7 slot 3 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame d6a33343a3ded25e\u2026"
+            }
+          },
+          {
+            "t": 95.25,
+            "dur": 0.55,
+            "card": {
+              "title": "#156 Gridheartbeat",
+              "sub": "Kody selects G212 for Sentinel",
+              "note": "Round 39 \u00b7 slot 4 \u00b7 journey \u00b7 Creative & Media \u00b7 frame 69cc639ec87a2e5b\u2026"
+            }
+          },
+          {
+            "t": 95.8,
+            "dur": 0.55,
+            "card": {
+              "title": "#157 Windwake",
+              "sub": "Molly selects G216 for Overwatch",
+              "note": "Round 40 \u00b7 slot 1 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame f2733d84c6429db3\u2026"
+            }
+          },
+          {
+            "t": 96.35,
+            "dur": 0.55,
+            "card": {
+              "title": "#158 Memoryalloy",
+              "sub": "Sawyer selects G220 for Scout",
+              "note": "Round 40 \u00b7 slot 2 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame c1e198a7c5bf86e5\u2026"
+            }
+          },
+          {
+            "t": 96.9,
+            "dur": 0.55,
+            "card": {
+              "title": "#159 Recyclerloop",
+              "sub": "Evelyn selects G223 for Forge",
+              "note": "Round 40 \u00b7 slot 3 \u00b7 journey \u00b7 Build & Automate \u00b7 frame 1fda445a577c44df\u2026"
+            }
+          },
+          {
+            "t": 97.45,
+            "dur": 0.55,
+            "card": {
+              "title": "#160 Librarylight",
+              "sub": "Kody selects G224 for Sentinel",
+              "note": "Round 40 \u00b7 slot 4 \u00b7 journey \u00b7 Operations & Support \u00b7 frame 3866b0ae4edcf845\u2026"
+            }
+          },
+          {
+            "t": 98.0,
+            "dur": 0.55,
+            "card": {
+              "title": "#161 Mutualaid",
+              "sub": "Molly selects G227 for Overwatch",
+              "note": "Round 41 \u00b7 slot 1 \u00b7 journey \u00b7 Operations & Support \u00b7 frame 1390f3b8a427e464\u2026"
+            }
+          },
+          {
+            "t": 98.55,
+            "dur": 0.55,
+            "card": {
+              "title": "#162 Repaircafe",
+              "sub": "Sawyer selects G231 for Scout",
+              "note": "Round 41 \u00b7 slot 2 \u00b7 journey \u00b7 Operations & Support \u00b7 frame a2a896fa8617eec7\u2026"
+            }
+          },
+          {
+            "t": 99.1,
+            "dur": 0.55,
+            "card": {
+              "title": "#163 Openstreet",
+              "sub": "Evelyn selects G233 for Forge",
+              "note": "Round 41 \u00b7 slot 3 \u00b7 journey \u00b7 Creative & Media \u00b7 frame c49816e7751733dd\u2026"
+            }
+          },
+          {
+            "t": 99.65,
+            "dur": 0.55,
+            "card": {
+              "title": "#164 Convergencefield",
+              "sub": "Kody selects G238 for Sentinel",
+              "note": "Round 41 \u00b7 slot 4 \u00b7 journey \u00b7 Creative & Media \u00b7 frame d7fc0a00ae4c801e\u2026"
+            }
+          },
+          {
+            "t": 100.2,
+            "dur": 0.55,
+            "card": {
+              "title": "#165 Latentgarden",
+              "sub": "Molly selects G240 for Overwatch",
+              "note": "Round 42 \u00b7 slot 1 \u00b7 journey \u00b7 Build & Automate \u00b7 frame 5f079a093317c97d\u2026"
+            }
+          },
+          {
+            "t": 100.75,
+            "dur": 0.55,
+            "card": {
+              "title": "#166 Causalwake",
+              "sub": "Sawyer selects G241 for Scout",
+              "note": "Round 42 \u00b7 slot 2 \u00b7 journey \u00b7 Growth & Commerce \u00b7 frame 355be006381ac275\u2026"
+            }
+          },
+          {
+            "t": 101.3,
+            "dur": 0.55,
+            "card": {
+              "title": "#167 Fractalshore",
+              "sub": "Evelyn selects G243 for Forge",
+              "note": "Round 42 \u00b7 slot 3 \u00b7 journey \u00b7 Creative & Media \u00b7 frame 30d5b349e9d437df\u2026"
+            }
+          },
+          {
+            "t": 101.85,
+            "dur": 0.55,
+            "card": {
+              "title": "#168 Phasegate",
+              "sub": "Kody selects G244 for Sentinel",
+              "note": "Round 42 \u00b7 slot 4 \u00b7 journey \u00b7 Research & Intelligence \u00b7 frame 2c7f822f3af8b973\u2026"
+            }
+          },
+          {
+            "t": 102.4,
+            "dur": 0.55,
+            "card": {
+              "title": "#169 Rootwake",
+              "sub": "Molly selects G001 for Overwatch",
+              "note": "Round 43 \u00b7 slot 1 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame d655e7c1a2a260d0\u2026"
+            }
+          },
+          {
+            "t": 102.95,
+            "dur": 0.55,
+            "card": {
+              "title": "#170 Pebblechoir",
+              "sub": "Sawyer selects G009 for Scout",
+              "note": "Round 43 \u00b7 slot 2 \u00b7 origin \u00b7 Research & Intelligence \u00b7 frame 72947c99c7e22593\u2026"
+            }
+          },
+          {
+            "t": 103.5,
+            "dur": 0.55,
+            "card": {
+              "title": "#171 Currentloom",
+              "sub": "Evelyn selects G013 for Forge",
+              "note": "Round 43 \u00b7 slot 3 \u00b7 origin \u00b7 Growth & Commerce \u00b7 frame 78b3214f23d6105e\u2026"
+            }
+          },
+          {
+            "t": 104.05,
+            "dur": 0.55,
+            "card": {
+              "title": "#172 Tidemirror",
+              "sub": "Kody selects G014 for Sentinel",
+              "note": "Round 43 \u00b7 slot 4 \u00b7 origin \u00b7 Research & Intelligence \u00b7 frame 306a257ce2d4b21e\u2026"
+            }
+          },
+          {
+            "t": 104.6,
+            "dur": 0.55,
+            "card": {
+              "title": "#173 Monsoonvessel",
+              "sub": "Molly selects G016 for Overwatch",
+              "note": "Round 44 \u00b7 slot 1 \u00b7 origin \u00b7 Creative & Media \u00b7 frame 6dc40d412fb7ffb2\u2026"
+            }
+          },
+          {
+            "t": 105.15,
+            "dur": 0.55,
+            "card": {
+              "title": "#174 Rainshadow",
+              "sub": "Sawyer selects G024 for Scout",
+              "note": "Round 44 \u00b7 slot 2 \u00b7 origin \u00b7 Creative & Media \u00b7 frame 93be62144ee67c95\u2026"
+            }
+          },
+          {
+            "t": 105.7,
+            "dur": 0.55,
+            "card": {
+              "title": "#175 Jetstreamribbon",
+              "sub": "Evelyn selects G027 for Forge",
+              "note": "Round 44 \u00b7 slot 3 \u00b7 origin \u00b7 Research & Intelligence \u00b7 frame 9642ab65bc6f446b\u2026"
+            }
+          },
+          {
+            "t": 106.25,
+            "dur": 0.55,
+            "card": {
+              "title": "#176 Auroraveil",
+              "sub": "Kody selects G028 for Sentinel",
+              "note": "Round 44 \u00b7 slot 4 \u00b7 origin \u00b7 Creative & Media \u00b7 frame ac5476dde24881c6\u2026"
+            }
+          },
+          {
+            "t": 106.8,
+            "dur": 0.55,
+            "card": {
+              "title": "#177 Lightningsprout",
+              "sub": "Molly selects G032 for Overwatch",
+              "note": "Round 45 \u00b7 slot 1 \u00b7 origin \u00b7 Operations & Support \u00b7 frame 1d8eb8cef958e3dd\u2026"
+            }
+          },
+          {
+            "t": 107.35,
+            "dur": 0.55,
+            "card": {
+              "title": "#178 Rainbowfracture",
+              "sub": "Sawyer selects G033 for Scout",
+              "note": "Round 45 \u00b7 slot 2 \u00b7 origin \u00b7 Creative & Media \u00b7 frame c185677bba8648f6\u2026"
+            }
+          },
+          {
+            "t": 107.9,
+            "dur": 0.55,
+            "card": {
+              "title": "#179 Virgathread",
+              "sub": "Evelyn selects G034 for Forge",
+              "note": "Round 45 \u00b7 slot 3 \u00b7 origin \u00b7 Operations & Support \u00b7 frame a297c1f2beaf2726\u2026"
+            }
+          },
+          {
+            "t": 108.45,
+            "dur": 0.55,
+            "card": {
+              "title": "#180 Emberseed",
+              "sub": "Kody selects G037 for Sentinel",
+              "note": "Round 45 \u00b7 slot 4 \u00b7 origin \u00b7 Research & Intelligence \u00b7 frame df5ac602ac89f9db\u2026"
+            }
+          },
+          {
+            "t": 109.0,
+            "dur": 0.55,
+            "card": {
+              "title": "#181 Fireweedcrown",
+              "sub": "Molly selects G038 for Overwatch",
+              "note": "Round 46 \u00b7 slot 1 \u00b7 origin \u00b7 Creative & Media \u00b7 frame 808f438777f223cd\u2026"
+            }
+          },
+          {
+            "t": 109.55,
+            "dur": 0.55,
+            "card": {
+              "title": "#182 Glasssun",
+              "sub": "Sawyer selects G042 for Scout",
+              "note": "Round 46 \u00b7 slot 2 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame 7887bfd2095cfe87\u2026"
+            }
+          },
+          {
+            "t": 110.1,
+            "dur": 0.55,
+            "card": {
+              "title": "#183 Smokecolumn",
+              "sub": "Evelyn selects G043 for Forge",
+              "note": "Round 46 \u00b7 slot 3 \u00b7 origin \u00b7 Research & Intelligence \u00b7 frame e2f613d663e01781\u2026"
+            }
+          },
+          {
+            "t": 110.65,
+            "dur": 0.55,
+            "card": {
+              "title": "#184 Glacierbell",
+              "sub": "Kody selects G049 for Sentinel",
+              "note": "Round 46 \u00b7 slot 4 \u00b7 origin \u00b7 Creative & Media \u00b7 frame cb72ef851720e7c3\u2026"
+            }
+          },
+          {
+            "t": 111.2,
+            "dur": 0.55,
+            "card": {
+              "title": "#185 Brinicle",
+              "sub": "Molly selects G050 for Overwatch",
+              "note": "Round 47 \u00b7 slot 1 \u00b7 origin \u00b7 Build & Automate \u00b7 frame 45f5d58e962bf93a\u2026"
+            }
+          },
+          {
+            "t": 111.75,
+            "dur": 0.55,
+            "card": {
+              "title": "#186 Frostflower",
+              "sub": "Sawyer selects G051 for Scout",
+              "note": "Round 47 \u00b7 slot 2 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame 071b6258fdd2e877\u2026"
+            }
+          },
+          {
+            "t": 112.3,
+            "dur": 0.55,
+            "card": {
+              "title": "#187 Blueice",
+              "sub": "Evelyn selects G055 for Forge",
+              "note": "Round 47 \u00b7 slot 3 \u00b7 origin \u00b7 Build & Automate \u00b7 frame 3160c98ba6f12319\u2026"
+            }
+          },
+          {
+            "t": 112.85,
+            "dur": 0.55,
+            "card": {
+              "title": "#188 Polarnight",
+              "sub": "Kody selects G058 for Sentinel",
+              "note": "Round 47 \u00b7 slot 4 \u00b7 origin \u00b7 Creative & Media \u00b7 frame b10d7e334454db53\u2026"
+            }
+          },
+          {
+            "t": 113.4,
+            "dur": 0.55,
+            "card": {
+              "title": "#189 Desertbloom",
+              "sub": "Molly selects G064 for Overwatch",
+              "note": "Round 48 \u00b7 slot 1 \u00b7 origin \u00b7 Operations & Support \u00b7 frame 1a3824c43777e74a\u2026"
+            }
+          },
+          {
+            "t": 113.95,
+            "dur": 0.55,
+            "card": {
+              "title": "#190 Kelpforest",
+              "sub": "Sawyer selects G066 for Scout",
+              "note": "Round 48 \u00b7 slot 2 \u00b7 origin \u00b7 Creative & Media \u00b7 frame 8976de8d1fc281ee\u2026"
+            }
+          },
+          {
+            "t": 114.5,
+            "dur": 0.55,
+            "card": {
+              "title": "#191 Bamboopulse",
+              "sub": "Evelyn selects G068 for Forge",
+              "note": "Round 48 \u00b7 slot 3 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame 1e0bbf1169299dc7\u2026"
+            }
+          },
+          {
+            "t": 115.05,
+            "dur": 0.55,
+            "card": {
+              "title": "#192 Nightblossom",
+              "sub": "Kody selects G071 for Sentinel",
+              "note": "Round 48 \u00b7 slot 4 \u00b7 origin \u00b7 Creative & Media \u00b7 frame 97447bef9f107aeb\u2026"
+            }
+          },
+          {
+            "t": 115.6,
+            "dur": 0.55,
+            "card": {
+              "title": "#193 Salmonreturn",
+              "sub": "Molly selects G075 for Overwatch",
+              "note": "Round 49 \u00b7 slot 1 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame b977c47486ebdae9\u2026"
+            }
+          },
+          {
+            "t": 116.15,
+            "dur": 0.55,
+            "card": {
+              "title": "#194 Beedance",
+              "sub": "Sawyer selects G081 for Scout",
+              "note": "Round 49 \u00b7 slot 2 \u00b7 origin \u00b7 Research & Intelligence \u00b7 frame 232e1399fcc5daf7\u2026"
+            }
+          },
+          {
+            "t": 116.7,
+            "dur": 0.55,
+            "card": {
+              "title": "#195 Eclipseumbra",
+              "sub": "Evelyn selects G085 for Forge",
+              "note": "Round 49 \u00b7 slot 3 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame 8ef5eb52780c64e6\u2026"
+            }
+          },
+          {
+            "t": 117.25,
+            "dur": 0.55,
+            "card": {
+              "title": "#196 Moontide",
+              "sub": "Kody selects G088 for Sentinel",
+              "note": "Round 49 \u00b7 slot 4 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame b7da4442a5147ab8\u2026"
+            }
+          },
+          {
+            "t": 117.8,
+            "dur": 0.55,
+            "card": {
+              "title": "#197 Nebulavein",
+              "sub": "Molly selects G092 for Overwatch",
+              "note": "Round 50 \u00b7 slot 1 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame 165ed83db2b72098\u2026"
+            }
+          },
+          {
+            "t": 118.35,
+            "dur": 0.55,
+            "card": {
+              "title": "#198 Dawnline",
+              "sub": "Sawyer selects G094 for Scout",
+              "note": "Round 50 \u00b7 slot 2 \u00b7 origin \u00b7 Research & Intelligence \u00b7 frame 42d58d2ce2ad8352\u2026"
+            }
+          },
+          {
+            "t": 118.9,
+            "dur": 0.55,
+            "card": {
+              "title": "#199 Signalflare",
+              "sub": "Evelyn selects G097 for Forge",
+              "note": "Round 50 \u00b7 slot 3 \u00b7 origin \u00b7 Growth & Commerce \u00b7 frame fd6561a080f96128\u2026"
+            }
+          },
+          {
+            "t": 119.45,
+            "dur": 0.55,
+            "card": {
+              "title": "#200 Sonarbloom",
+              "sub": "Kody selects G106 for Sentinel",
+              "note": "Round 50 \u00b7 slot 4 \u00b7 origin \u00b7 Creative & Media \u00b7 frame fd1a0aa6719e55c5\u2026"
+            }
+          },
+          {
+            "t": 120.0,
+            "dur": 0.55,
+            "card": {
+              "title": "#201 Heartwoodbeat",
+              "sub": "Molly selects G107 for Overwatch",
+              "note": "Round 51 \u00b7 slot 1 \u00b7 origin \u00b7 Creative & Media \u00b7 frame 9a744cf99fd8e2af\u2026"
+            }
+          },
+          {
+            "t": 120.55,
+            "dur": 0.55,
+            "card": {
+              "title": "#202 Springthaw",
+              "sub": "Sawyer selects G112 for Scout",
+              "note": "Round 51 \u00b7 slot 2 \u00b7 origin \u00b7 Operations & Support \u00b7 frame 59255d3584bdc2e1\u2026"
+            }
+          },
+          {
+            "t": 121.1,
+            "dur": 0.55,
+            "card": {
+              "title": "#203 Migrationmoon",
+              "sub": "Evelyn selects G117 for Forge",
+              "note": "Round 51 \u00b7 slot 3 \u00b7 origin \u00b7 Build & Automate \u00b7 frame 14d4fbd966e6ae34\u2026"
+            }
+          },
+          {
+            "t": 121.65,
+            "dur": 0.55,
+            "card": {
+              "title": "#204 Centurytree",
+              "sub": "Kody selects G118 for Sentinel",
+              "note": "Round 51 \u00b7 slot 4 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame e44c21e35b1be715\u2026"
+            }
+          },
+          {
+            "t": 122.2,
+            "dur": 0.55,
+            "card": {
+              "title": "#205 Tidalcalendar",
+              "sub": "Molly selects G119 for Overwatch",
+              "note": "Round 52 \u00b7 slot 1 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame 2b279c36b11c35ed\u2026"
+            }
+          },
+          {
+            "t": 122.75,
+            "dur": 0.55,
+            "card": {
+              "title": "#206 Lanternmaker",
+              "sub": "Sawyer selects G121 for Scout",
+              "note": "Round 52 \u00b7 slot 2 \u00b7 origin \u00b7 Growth & Commerce \u00b7 frame 1bd203a1432acc5a\u2026"
+            }
+          },
+          {
+            "t": 123.3,
+            "dur": 0.55,
+            "card": {
+              "title": "#207 Storyloom",
+              "sub": "Evelyn selects G125 for Forge",
+              "note": "Round 52 \u00b7 slot 3 \u00b7 origin \u00b7 Growth & Commerce \u00b7 frame f681b3fcf7b5d340\u2026"
+            }
+          },
+          {
+            "t": 123.85,
+            "dur": 0.55,
+            "card": {
+              "title": "#208 Stonecompass",
+              "sub": "Kody selects G128 for Sentinel",
+              "note": "Round 52 \u00b7 slot 4 \u00b7 origin \u00b7 Creative & Media \u00b7 frame 8368a5f0b9bbb3f5\u2026"
+            }
+          },
+          {
+            "t": 124.4,
+            "dur": 0.55,
+            "card": {
+              "title": "#209 Travelingmarket",
+              "sub": "Molly selects G132 for Overwatch",
+              "note": "Round 53 \u00b7 slot 1 \u00b7 origin \u00b7 Growth & Commerce \u00b7 frame b77bc0149f5b3b08\u2026"
+            }
+          },
+          {
+            "t": 124.95,
+            "dur": 0.55,
+            "card": {
+              "title": "#210 Subwaywind",
+              "sub": "Sawyer selects G134 for Scout",
+              "note": "Round 53 \u00b7 slot 2 \u00b7 origin \u00b7 Build & Automate \u00b7 frame 2444a0ab37827798\u2026"
+            }
+          },
+          {
+            "t": 125.5,
+            "dur": 0.55,
+            "card": {
+              "title": "#211 Signalgarden",
+              "sub": "Evelyn selects G136 for Forge",
+              "note": "Round 53 \u00b7 slot 3 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame e671de050f6fe208\u2026"
+            }
+          },
+          {
+            "t": 126.05,
+            "dur": 0.55,
+            "card": {
+              "title": "#212 Reclaimedriver",
+              "sub": "Kody selects G139 for Sentinel",
+              "note": "Round 53 \u00b7 slot 4 \u00b7 origin \u00b7 Operations & Support \u00b7 frame dd115f9f6d1458ed\u2026"
+            }
+          },
+          {
+            "t": 126.6,
+            "dur": 0.55,
+            "card": {
+              "title": "#213 Solarcanopy",
+              "sub": "Molly selects G140 for Overwatch",
+              "note": "Round 54 \u00b7 slot 1 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame 74086514e65c9f0e\u2026"
+            }
+          },
+          {
+            "t": 127.15,
+            "dur": 0.55,
+            "card": {
+              "title": "#214 Datacurrent",
+              "sub": "Sawyer selects G141 for Scout",
+              "note": "Round 54 \u00b7 slot 2 \u00b7 origin \u00b7 Operations & Support \u00b7 frame 332acddf01d1bed7\u2026"
+            }
+          },
+          {
+            "t": 127.7,
+            "dur": 0.55,
+            "card": {
+              "title": "#215 Batterydawn",
+              "sub": "Evelyn selects G142 for Forge",
+              "note": "Round 54 \u00b7 slot 3 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame c77072b76f863f42\u2026"
+            }
+          },
+          {
+            "t": 128.25,
+            "dur": 0.55,
+            "card": {
+              "title": "#216 Pollinatordrone",
+              "sub": "Kody selects G143 for Sentinel",
+              "note": "Round 54 \u00b7 slot 4 \u00b7 origin \u00b7 Operations & Support \u00b7 frame fb361893640b2550\u2026"
+            }
+          },
+          {
+            "t": 128.8,
+            "dur": 0.55,
+            "card": {
+              "title": "#217 Quietstreet",
+              "sub": "Molly selects G144 for Overwatch",
+              "note": "Round 55 \u00b7 slot 1 \u00b7 origin \u00b7 Research & Intelligence \u00b7 frame 42abd83158a43b79\u2026"
+            }
+          },
+          {
+            "t": 129.35,
+            "dur": 0.55,
+            "card": {
+              "title": "#218 Horizonfold",
+              "sub": "Sawyer selects G146 for Scout",
+              "note": "Round 55 \u00b7 slot 2 \u00b7 origin \u00b7 Creative & Media \u00b7 frame 59afceb8db0296d2\u2026"
+            }
+          },
+          {
+            "t": 129.9,
+            "dur": 0.55,
+            "card": {
+              "title": "#219 Timewell",
+              "sub": "Evelyn selects G148 for Forge",
+              "note": "Round 55 \u00b7 slot 3 \u00b7 origin \u00b7 Creative & Media \u00b7 frame da0e3e66018bb813\u2026"
+            }
+          },
+          {
+            "t": 130.45,
+            "dur": 0.55,
+            "card": {
+              "title": "#220 Pressureglass",
+              "sub": "Kody selects G155 for Sentinel",
+              "note": "Round 55 \u00b7 slot 4 \u00b7 origin \u00b7 Creative & Media \u00b7 frame 0efbc38c60619760\u2026"
+            }
+          },
+          {
+            "t": 131.0,
+            "dur": 0.55,
+            "card": {
+              "title": "#221 Brinepool",
+              "sub": "Molly selects G157 for Overwatch",
+              "note": "Round 56 \u00b7 slot 1 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame 2a4960d1f1cb922b\u2026"
+            }
+          },
+          {
+            "t": 131.55,
+            "dur": 0.55,
+            "card": {
+              "title": "#222 Gyrewalker",
+              "sub": "Sawyer selects G158 for Scout",
+              "note": "Round 56 \u00b7 slot 2 \u00b7 origin \u00b7 Creative & Media \u00b7 frame e888288b23db73a4\u2026"
+            }
+          },
+          {
+            "t": 132.1,
+            "dur": 0.55,
+            "card": {
+              "title": "#223 Tsunamimemory",
+              "sub": "Evelyn selects G162 for Forge",
+              "note": "Round 56 \u00b7 slot 3 \u00b7 origin \u00b7 Creative & Media \u00b7 frame 5dcc82792d43a44e\u2026"
+            }
+          },
+          {
+            "t": 132.65,
+            "dur": 0.55,
+            "card": {
+              "title": "#224 Icenucleus",
+              "sub": "Kody selects G167 for Sentinel",
+              "note": "Round 56 \u00b7 slot 4 \u00b7 origin \u00b7 Creative & Media \u00b7 frame f73fe826306d5acb\u2026"
+            }
+          },
+          {
+            "t": 133.2,
+            "dur": 0.55,
+            "card": {
+              "title": "#225 Noctilucent",
+              "sub": "Molly selects G169 for Overwatch",
+              "note": "Round 57 \u00b7 slot 1 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame 32ccf805223b7275\u2026"
+            }
+          },
+          {
+            "t": 133.75,
+            "dur": 0.55,
+            "card": {
+              "title": "#226 Gravitywave",
+              "sub": "Sawyer selects G170 for Scout",
+              "note": "Round 57 \u00b7 slot 2 \u00b7 origin \u00b7 Research & Intelligence \u00b7 frame 2482193bcd9873a0\u2026"
+            }
+          },
+          {
+            "t": 134.3,
+            "dur": 0.55,
+            "card": {
+              "title": "#227 Microburst",
+              "sub": "Evelyn selects G171 for Forge",
+              "note": "Round 57 \u00b7 slot 3 \u00b7 origin \u00b7 Creative & Media \u00b7 frame 747aecebf5d5e579\u2026"
+            }
+          },
+          {
+            "t": 134.85,
+            "dur": 0.55,
+            "card": {
+              "title": "#228 Cloudstreet",
+              "sub": "Kody selects G175 for Sentinel",
+              "note": "Round 57 \u00b7 slot 4 \u00b7 origin \u00b7 Operations & Support \u00b7 frame 7fcf44edfe8ad531\u2026"
+            }
+          },
+          {
+            "t": 135.4,
+            "dur": 0.55,
+            "card": {
+              "title": "#229 Saltpanmirror",
+              "sub": "Molly selects G177 for Overwatch",
+              "note": "Round 58 \u00b7 slot 1 \u00b7 origin \u00b7 Research & Intelligence \u00b7 frame 8731c8ea21819134\u2026"
+            }
+          },
+          {
+            "t": 135.95,
+            "dur": 0.55,
+            "card": {
+              "title": "#230 Oasiskeeper",
+              "sub": "Sawyer selects G178 for Scout",
+              "note": "Round 58 \u00b7 slot 2 \u00b7 origin \u00b7 Creative & Media \u00b7 frame 261038e912efdfea\u2026"
+            }
+          },
+          {
+            "t": 136.5,
+            "dur": 0.55,
+            "card": {
+              "title": "#231 Dryriver",
+              "sub": "Evelyn selects G185 for Forge",
+              "note": "Round 58 \u00b7 slot 3 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame 44be24492dd00aec\u2026"
+            }
+          },
+          {
+            "t": 137.05,
+            "dur": 0.55,
+            "card": {
+              "title": "#232 Boglantern",
+              "sub": "Kody selects G189 for Sentinel",
+              "note": "Round 58 \u00b7 slot 4 \u00b7 origin \u00b7 Build & Automate \u00b7 frame aeb58a1a14e4496c\u2026"
+            }
+          },
+          {
+            "t": 137.6,
+            "dur": 0.55,
+            "card": {
+              "title": "#233 Floodforest",
+              "sub": "Molly selects G192 for Overwatch",
+              "note": "Round 59 \u00b7 slot 1 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame 4b17a60722a0c751\u2026"
+            }
+          },
+          {
+            "t": 138.15,
+            "dur": 0.55,
+            "card": {
+              "title": "#234 Rifflebreath",
+              "sub": "Sawyer selects G198 for Scout",
+              "note": "Round 59 \u00b7 slot 2 \u00b7 origin \u00b7 Research & Intelligence \u00b7 frame 157b8ecc16480519\u2026"
+            }
+          },
+          {
+            "t": 138.7,
+            "dur": 0.55,
+            "card": {
+              "title": "#235 Slimecurrent",
+              "sub": "Evelyn selects G201 for Forge",
+              "note": "Round 59 \u00b7 slot 3 \u00b7 origin \u00b7 Build & Automate \u00b7 frame a1034a2b25ec4406\u2026"
+            }
+          },
+          {
+            "t": 139.25,
+            "dur": 0.55,
+            "card": {
+              "title": "#236 Biofilmveil",
+              "sub": "Kody selects G203 for Sentinel",
+              "note": "Round 59 \u00b7 slot 4 \u00b7 origin \u00b7 Build & Automate \u00b7 frame 72fd73d43ebdda8a\u2026"
+            }
+          },
+          {
+            "t": 139.8,
+            "dur": 0.55,
+            "card": {
+              "title": "#237 Endophyte",
+              "sub": "Molly selects G207 for Overwatch",
+              "note": "Round 60 \u00b7 slot 1 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame 94bf83347e51c3c2\u2026"
+            }
+          },
+          {
+            "t": 140.35,
+            "dur": 0.55,
+            "card": {
+              "title": "#238 Planktonpulse",
+              "sub": "Sawyer selects G209 for Scout",
+              "note": "Round 60 \u00b7 slot 2 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame db6dcef920e72573\u2026"
+            }
+          },
+          {
+            "t": 140.9,
+            "dur": 0.55,
+            "card": {
+              "title": "#239 Flywheelmemory",
+              "sub": "Evelyn selects G213 for Forge",
+              "note": "Round 60 \u00b7 slot 3 \u00b7 origin \u00b7 Creative & Media \u00b7 frame cc3936b6a7b60988\u2026"
+            }
+          },
+          {
+            "t": 141.45,
+            "dur": 0.55,
+            "card": {
+              "title": "#240 Heatpump",
+              "sub": "Kody selects G214 for Sentinel",
+              "note": "Round 60 \u00b7 slot 4 \u00b7 origin \u00b7 Research & Intelligence \u00b7 frame de8208d8b77f9d48\u2026"
+            }
+          },
+          {
+            "t": 142.0,
+            "dur": 0.55,
+            "card": {
+              "title": "#241 Tidalturbine",
+              "sub": "Molly selects G215 for Overwatch",
+              "note": "Round 61 \u00b7 slot 1 \u00b7 origin \u00b7 Research & Intelligence \u00b7 frame bfc59e62b645d7f9\u2026"
+            }
+          },
+          {
+            "t": 142.55,
+            "dur": 0.55,
+            "card": {
+              "title": "#242 Hydrogencell",
+              "sub": "Sawyer selects G217 for Scout",
+              "note": "Round 61 \u00b7 slot 2 \u00b7 origin \u00b7 Creative & Media \u00b7 frame 24b5f05f24f65973\u2026"
+            }
+          },
+          {
+            "t": 143.1,
+            "dur": 0.55,
+            "card": {
+              "title": "#243 Circuitmoss",
+              "sub": "Evelyn selects G219 for Forge",
+              "note": "Round 61 \u00b7 slot 3 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame 78fadf95391e667b\u2026"
+            }
+          },
+          {
+            "t": 143.65,
+            "dur": 0.55,
+            "card": {
+              "title": "#244 Photonicpath",
+              "sub": "Kody selects G221 for Sentinel",
+              "note": "Round 61 \u00b7 slot 4 \u00b7 origin \u00b7 Creative & Media \u00b7 frame 0e905c6caabac60f\u2026"
+            }
+          },
+          {
+            "t": 144.2,
+            "dur": 0.55,
+            "card": {
+              "title": "#245 Signalbeacon",
+              "sub": "Molly selects G226 for Overwatch",
+              "note": "Round 62 \u00b7 slot 1 \u00b7 origin \u00b7 Research & Intelligence \u00b7 frame a97e34ac52979536\u2026"
+            }
+          },
+          {
+            "t": 144.75,
+            "dur": 0.55,
+            "card": {
+              "title": "#246 Branchkeeper",
+              "sub": "Sawyer selects G239 for Scout",
+              "note": "Round 62 \u00b7 slot 2 \u00b7 origin \u00b7 Creative & Media \u00b7 frame d285c4f52c6ee524\u2026"
+            }
+          },
+          {
+            "t": 145.3,
+            "dur": 0.55,
+            "card": {
+              "title": "#247 Entropyloom",
+              "sub": "Evelyn selects G242 for Forge",
+              "note": "Round 62 \u00b7 slot 3 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame 5ab59a49c5b1a4c9\u2026"
+            }
+          },
+          {
+            "t": 145.85,
+            "dur": 0.55,
+            "card": {
+              "title": "#248 Nullharbor",
+              "sub": "Kody selects G245 for Sentinel",
+              "note": "Round 62 \u00b7 slot 4 \u00b7 origin \u00b7 Creative & Media \u00b7 frame 88cab272197ade47\u2026"
+            }
+          },
+          {
+            "t": 146.4,
+            "dur": 0.55,
+            "card": {
+              "title": "#249 Futureecho",
+              "sub": "Molly selects G248 for Overwatch",
+              "note": "Round 63 \u00b7 slot 1 \u00b7 origin \u00b7 Quality & Risk \u00b7 frame 4a448ce83630dcf8\u2026"
+            }
+          },
+          {
+            "t": 146.95,
+            "dur": 0.55,
+            "card": {
+              "title": "#250 Boundarylight",
+              "sub": "Sawyer selects G249 for Scout",
+              "note": "Round 63 \u00b7 slot 2 \u00b7 origin \u00b7 Growth & Commerce \u00b7 frame 60f92d18f672b4c2\u2026"
+            }
+          },
+          {
+            "t": 147.5,
+            "dur": 0.55,
+            "card": {
+              "title": "#251 Continuumseed",
+              "sub": "Evelyn selects G250 for Forge",
+              "note": "Round 63 \u00b7 slot 3 \u00b7 origin \u00b7 Creative & Media \u00b7 frame ae917a5892924a9f\u2026"
+            }
+          },
+          {
+            "t": 148.05,
+            "dur": 20,
+            "app": "draft/index.html?pick=251",
+            "ready": {
+              "selector": "#verification[data-ok=\"true\"]"
+            },
+            "lower": {
+              "title": "All 251 drafted",
+              "bench": "Molly 63 \u00b7 Sawyer 63 \u00b7 Evelyn 63 \u00b7 Kody 62",
+              "fix": "Take the wheel: rewind, inspect rosters, or replay the verified board"
+            }
+          }
+        ]
+      }
+    },
     {
       "id": "veridion-proof-trailer",
       "title": "I gave four AIs two Mac minis, a constitution, and a world",
@@ -74,7 +2424,7 @@
     },
     {
       "id": "aivms-watch-their-own-film",
-      "title": "The AIs watched their own movie—and caught each other making things up",
+      "title": "The AIs watched their own movie\u2014and caught each other making things up",
       "description": "Two RappterBox AIVMs attended a literal Minecraft screening of the Veridion proof trailer. The film was compiled into thirty block frames and verified note sounds, then observed through each Mineflayer body's first-person viewer.\n\nRappterTwoAI hot-loaded a multimodal vision agent and submitted a 4/5 review. NicolasAI independently audited it and rejected the semantic claims the pictures could not prove. This documentary uses the real viewer captures, append-only review, peer audit, and independent verification.",
       "published": "2026-08-09",
       "duration": 82.1,
