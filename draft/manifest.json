@@ -1,5 +1,6 @@
 {
   "draft_hash": "f4ac2a6ce0ad4cde265dc7e8fe2132b805789bf9c6e78e8a73664137da5ae6e2",
+  "draft_file_sha256": "808396edee6af2cd1c92501777edc340bd2fa0968201ebf08cc37f120c93d0dd",
   "founding_four": [
     {
       "draft_overall_pick": 1,
@@ -42,6 +43,47 @@
       "starter_species_name": "Mudcrackoracle"
     }
   ],
+  "starting_houses": [
+    {
+      "founder_profile": "Molly",
+      "house": "Overwatch",
+      "house_code": "overwatch",
+      "paper_card_id": "001"
+    },
+    {
+      "founder_profile": "Sawyer",
+      "house": "Scout",
+      "house_code": "scout",
+      "paper_card_id": "002"
+    },
+    {
+      "founder_profile": "Evelyn",
+      "house": "Forge",
+      "house_code": "forge",
+      "paper_card_id": "003"
+    },
+    {
+      "founder_profile": "Kody",
+      "house": "Sentinel",
+      "house_code": "sentinel",
+      "paper_card_id": "004"
+    }
+  ],
+  "player_membership": {
+    "account_required": false,
+    "allowed_house_codes": [
+      "overwatch",
+      "scout",
+      "forge",
+      "sentinel"
+    ],
+    "companion_access": false,
+    "gameplay_power": false,
+    "network_submission": false,
+    "pii_collected": false,
+    "required": true,
+    "storage": "browser-local-only"
+  },
   "frame_count": 254,
   "head_frame_hash": "d8a19e84c5ce704028df3dabba5204239f7b8186a72471c4f1e5b39cba04a73f",
   "head_payload_hash": "eacfb8dc93ae490ac93513699ccedd7837cb8c3bcee0a175c6d1de1c6c15cbf5",

@@ -176,6 +176,63 @@
         text-align: right;
       }
 
+      .membership {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        margin-bottom: 16px;
+        padding: 18px;
+      }
+
+      .membership h2 {
+        margin-bottom: 6px;
+        font-size: 20px;
+      }
+
+      .membership p {
+        max-width: 760px;
+        margin-bottom: 0;
+        color: var(--cp-text-muted);
+        line-height: 1.5;
+      }
+
+      .membership-status {
+        min-width: 220px;
+        padding: 12px;
+        border: 1px solid var(--cp-border);
+        border-radius: 0.625rem;
+        background: var(--cp-surface-soft);
+      }
+
+      .membership-status span,
+      .membership-status strong {
+        display: block;
+      }
+
+      .membership-status span {
+        margin-bottom: 3px;
+        color: var(--cp-text-muted);
+        font-size: 11px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .membership-status strong {
+        color: var(--cp-accent);
+        font-size: 17px;
+      }
+
+      .membership-status button {
+        margin-top: 8px;
+        padding: 0;
+        border: 0;
+        background: transparent;
+        color: var(--cp-link);
+        cursor: pointer;
+        font-size: 12px;
+      }
+
       .founders {
         display: grid;
         grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -195,6 +252,11 @@
 
       .founder[data-focused="true"] {
         border-color: var(--cp-accent);
+        box-shadow: 0 0 0 3px var(--cp-highlight);
+      }
+
+      .founder[data-selected="true"] {
+        border-color: var(--cp-success);
         box-shadow: 0 0 0 3px var(--cp-highlight);
       }
 
@@ -228,6 +290,26 @@
         font-size: 36px;
         font-weight: 700;
         opacity: 0.3;
+      }
+
+      .house-choice {
+        position: relative;
+        z-index: 1;
+        min-height: 36px;
+        margin-top: 10px;
+        padding: 0 12px;
+        border: 1px solid var(--cp-border-strong);
+        border-radius: 0.625rem;
+        background: var(--cp-surface);
+        color: var(--cp-text);
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .founder[data-selected="true"] .house-choice {
+        border-color: var(--cp-success);
+        color: var(--cp-success);
       }
 
       .progress-shell {
@@ -454,12 +536,14 @@
 
       @media (max-width: 980px) {
         .topbar,
-        .notice {
+        .notice,
+        .membership {
           align-items: stretch;
           flex-direction: column;
         }
 
-        .verification {
+        .verification,
+        .membership-status {
           min-width: 0;
         }
 
@@ -497,11 +581,12 @@
     <main class="app">
       <header class="topbar">
         <div>
-          <p class="eyebrow">RAPP Vision live replay • Founding Four</p>
+          <p class="eyebrow">RAPP Vision live replay • Four starting houses</p>
           <h1>Genesis 251 Draft</h1>
           <p class="lede">
-            Watch all 251 named Rapters leave the deterministic big board, one verified
-            RAPP/1 frame at a time.
+            Join Overwatch, Scout, Forge, or Sentinel, then watch all 251 named
+            Rapters leave the deterministic big board one verified RAPP/1 frame
+            at a time.
           </p>
         </div>
         <div id="verification" class="verification" data-ok="false">
@@ -512,10 +597,26 @@
 
       <div class="notice">
         <strong>Paper-card simulation only.</strong>
-        <span>Four participating cards. Watch-only. No metal issuance, title transfer, or offspring issuance.</span>
+        <span>One starting house is required. No player PII, account, metal issuance, title transfer, or offspring issuance.</span>
       </div>
 
-      <section id="founders" class="founders" aria-label="Founding Four starter cards"></section>
+      <section class="panel membership" aria-labelledby="membership-title">
+        <div>
+          <h2 id="membership-title">Choose one starting house</h2>
+          <p>
+            House membership is the complete player profile for this replay.
+            The browser stores only one of four house codes locally—never a
+            player name, email, account, device identifier, or network record.
+          </p>
+        </div>
+        <div class="membership-status">
+          <span>Your house</span>
+          <strong id="player-house">Not selected</strong>
+          <button id="clear-house" type="button" hidden>Change house</button>
+        </div>
+      </section>
+
+      <section id="founders" class="founders" aria-label="Four starting houses and founder profiles"></section>
 
       <div class="progress-shell" aria-hidden="true">
         <div id="progress" class="progress-fill"></div>
@@ -533,11 +634,11 @@
             <p id="selection-identity" class="identity">251 named Rapters • 63 rounds</p>
             <div class="selection-details">
               <div class="detail">
-                <span>Selected by</span>
+                <span>Draft house</span>
                 <strong id="selected-by">—</strong>
               </div>
               <div class="detail">
-                <span>Starter house</span>
+                <span>Founder profile</span>
                 <strong id="starter-house">—</strong>
               </div>
               <div class="detail">
@@ -550,7 +651,7 @@
           <div class="on-clock">
             <div>
               <span>On the clock</span>
-              <strong id="on-clock">Molly • Overwatch • Pick 1</strong>
+              <strong id="on-clock">Choose a starting house to enter</strong>
             </div>
             <span id="round-copy" class="mono">Round 1</span>
           </div>
@@ -579,8 +680,9 @@
           <section class="panel offspring">
             <h2>Current prerelease boundary</h2>
             <p>
-              The Founding Four are paper test identities. The founder
-              <strong>-001 labels remain unique</strong>, but this replay grants or promises
+              The four houses are represented by public founder profiles and
+              unique <strong>-001 paper-test starters</strong>. Player
+              membership stores only a local house code and grants or promises
               no title, metal card, descendant, purchase, or issuance right.
             </p>
           </section>
@@ -596,9 +698,13 @@
           "rappid:@rapterbox/twin:" +
           "74d64548d291f8b13b57eacd69b41600ccc9195d474eb59eff850a0ff5cd6e18" +
           ":genesis-251-draft";
+        const expectedDraftFileHash =
+          "808396edee6af2cd1c92501777edc340bd2fa0968201ebf08cc37f120c93d0dd";
         const verification = document.getElementById("verification");
         const verificationTitle = document.getElementById("verification-title");
         const verificationCopy = document.getElementById("verification-copy");
+        const playerHouse = document.getElementById("player-house");
+        const clearHouseButton = document.getElementById("clear-house");
         const foundersNode = document.getElementById("founders");
         const progress = document.getElementById("progress");
         const progressCopy = document.getElementById("progress-copy");
@@ -623,10 +729,67 @@
         let starters = [];
         let currentIndex = -1;
         let timer = null;
-        const focusedCard = new URLSearchParams(window.location.search).get("card");
-        const requestedPick = Number(
-          new URLSearchParams(window.location.search).get("pick")
-        );
+        const params = new URLSearchParams(window.location.search);
+        const focusedCard = params.get("card");
+        const requestedPick = Number(params.get("pick"));
+        const requestedPickIndex =
+          Number.isInteger(requestedPick) && requestedPick >= 1 && requestedPick <= 251
+            ? requestedPick - 1
+            : null;
+        const HOUSE_STORAGE_KEY = "rappterbox.player-house.v1";
+        const HOUSE_CODES = ["overwatch", "scout", "forge", "sentinel"];
+        const HOUSE_DETAILS = {
+          overwatch: {
+            name: "Overwatch",
+            purpose: "See the whole board, coordinate the flock, and keep priorities aligned.",
+          },
+          scout: {
+            name: "Scout",
+            purpose: "Explore new paths, discover signal, and bring back verified intelligence.",
+          },
+          forge: {
+            name: "Forge",
+            purpose: "Build, create, combine, and improve useful things.",
+          },
+          sentinel: {
+            name: "Sentinel",
+            purpose: "Protect continuity, verify evidence, and hold the safety boundary.",
+          },
+        };
+        let selectedHouseCode = readStoredHouse();
+
+        function normalizeHouseCode(value) {
+          const code = typeof value === "string" ? value.toLowerCase() : "";
+          return HOUSE_CODES.includes(code) ? code : null;
+        }
+
+        function readStoredHouse() {
+          try {
+            return normalizeHouseCode(window.localStorage.getItem(HOUSE_STORAGE_KEY));
+          } catch {
+            return null;
+          }
+        }
+
+        function persistHouse(code) {
+          try {
+            if (code === null) window.localStorage.removeItem(HOUSE_STORAGE_KEY);
+            else window.localStorage.setItem(HOUSE_STORAGE_KEY, code);
+          } catch {
+            // House selection remains valid for this page even without storage.
+          }
+        }
+
+        function chooseHouse(code) {
+          const normalized = normalizeHouseCode(code);
+          if (normalized === null) throw new Error("unknown starting house");
+          selectedHouseCode = normalized;
+          persistHouse(normalized);
+          if (currentIndex < 0 && requestedPickIndex !== null) {
+            currentIndex = requestedPickIndex;
+          }
+          render();
+        }
 
         function canonical(value) {
           if (value === null || typeof value === "boolean") return JSON.stringify(value);
@@ -651,6 +814,13 @@
 
         async function hash(space, value) {
           const bytes = new TextEncoder().encode(space + "\n" + canonical(value));
+          const digest = await crypto.subtle.digest("SHA-256", bytes);
+          return Array.from(new Uint8Array(digest))
+            .map((byte) => byte.toString(16).padStart(2, "0"))
+            .join("");
+        }
+
+        async function hashBytes(bytes) {
           const digest = await crypto.subtle.digest("SHA-256", bytes);
           return Array.from(new Uint8Array(digest))
             .map((byte) => byte.toString(16).padStart(2, "0"))
@@ -743,6 +913,31 @@
             closed.boundary.offspring_issuance_open !== false
           ) throw new Error("prerelease boundary mismatch");
 
+          const membership = manifest.player_membership;
+          const publicHouses = manifest.starting_houses.map((item) => [
+            item.house_code,
+            item.house,
+            item.founder_profile,
+          ]);
+          if (
+            membership.required !== true ||
+            membership.pii_collected !== false ||
+            membership.account_required !== false ||
+            membership.network_submission !== false ||
+            membership.storage !== "browser-local-only" ||
+            membership.gameplay_power !== false ||
+            membership.companion_access !== false ||
+            JSON.stringify(membership.allowed_house_codes) !==
+              JSON.stringify(HOUSE_CODES) ||
+            JSON.stringify(publicHouses) !==
+              JSON.stringify([
+                ["overwatch", "Overwatch", "Molly"],
+                ["scout", "Scout", "Sawyer"],
+                ["forge", "Forge", "Evelyn"],
+                ["sentinel", "Sentinel", "Kody"],
+              ])
+          ) throw new Error("anonymous house membership policy mismatch");
+
           const labels = declared.founding_four.map((item) => item.founder_instance_label);
           if (
             JSON.stringify(labels) !==
@@ -766,9 +961,12 @@
         }
 
         function rosterCounts() {
-          const counts = new Map(starters.map((starter) => [starter.assignee, 0]));
+          const counts = new Map(
+            starters.map((starter) => [starter.starter_role.toLowerCase(), 0])
+          );
           picks.slice(0, currentIndex + 1).forEach((frame) => {
-            counts.set(frame.payload.assignee, (counts.get(frame.payload.assignee) || 0) + 1);
+            const code = frame.payload.starter_role.toLowerCase();
+            counts.set(code, (counts.get(code) || 0) + 1);
           });
           return counts;
         }
@@ -777,16 +975,20 @@
           const counts = rosterCounts();
           foundersNode.replaceChildren(
             ...starters.map((starter) => {
+              const code = starter.starter_role.toLowerCase();
+              const details = HOUSE_DETAILS[code];
               const article = document.createElement("article");
               article.className = "founder";
               article.dataset.focused = String(focusedCard === starter.card_id);
+              article.dataset.selected = String(selectedHouseCode === code);
 
               const cardId = document.createElement("div");
               cardId.className = "card-id mono";
-              cardId.textContent = "CARD " + starter.card_id + " • " + starter.assignee;
+              cardId.textContent =
+                "HOUSE " + starter.card_id + " • FOUNDER PROFILE " + starter.assignee;
 
               const title = document.createElement("h3");
-              title.textContent = starter.starter_role;
+              title.textContent = details.name;
 
               const species = document.createElement("div");
               species.className = "species";
@@ -794,13 +996,23 @@
 
               const roster = document.createElement("div");
               roster.className = "roster-count";
-              roster.textContent = "Drafted roster: " + counts.get(starter.assignee);
+              roster.textContent =
+                details.purpose + " Drafted roster: " + counts.get(code);
+
+              const choose = document.createElement("button");
+              choose.className = "house-choice";
+              choose.type = "button";
+              choose.textContent =
+                selectedHouseCode === code
+                  ? "Your house"
+                  : "Join " + details.name;
+              choose.addEventListener("click", () => chooseHouse(code));
 
               const count = document.createElement("div");
               count.className = "count";
-              count.textContent = String(counts.get(starter.assignee)).padStart(2, "0");
+              count.textContent = String(counts.get(code)).padStart(2, "0");
 
-              article.append(cardId, title, species, roster, count);
+              article.append(cardId, title, species, roster, choose, count);
               return article;
             })
           );
@@ -816,13 +1028,23 @@
           strong.textContent = frame.payload.name;
           const small = document.createElement("small");
           small.textContent =
-            frame.payload.assignee + " • " + frame.payload.starter_role + " • " + frame.payload.rapter_id;
+            "House " +
+            frame.payload.starter_role +
+            " • " +
+            frame.payload.assignee +
+            " profile • " +
+            frame.payload.rapter_id;
           copy.append(strong, small);
           item.append(number, copy);
           return item;
         }
 
         function renderLists() {
+          if (selectedHouseCode === null) {
+            recentNode.replaceChildren();
+            upcomingNode.replaceChildren();
+            return;
+          }
           const recent = picks.slice(Math.max(0, currentIndex - 4), currentIndex + 1).reverse();
           recentNode.replaceChildren(...recent.map(pickListItem));
           const upcoming = picks.slice(currentIndex + 1, currentIndex + 6);
@@ -830,6 +1052,35 @@
         }
 
         function render() {
+          const selectedHouse =
+            selectedHouseCode === null ? null : HOUSE_DETAILS[selectedHouseCode];
+          playerHouse.textContent = selectedHouse
+            ? selectedHouse.name
+            : "Not selected";
+          clearHouseButton.hidden = selectedHouse === null;
+
+          if (selectedHouse === null) {
+            progress.style.width = "0%";
+            progressCopy.textContent = "House required • 0 / 251 picks";
+            pickLabel.textContent = "Choose a house";
+            selectionName.textContent = "Choose your starting house.";
+            selectionIdentity.textContent =
+              "No account, player name, email, or identifier is collected.";
+            selectedBy.textContent = "Required";
+            starterHouse.textContent = "Four public founder profiles";
+            talentLane.textContent = "No gameplay or companion power";
+            onClock.textContent = "Overwatch • Scout • Forge • Sentinel";
+            roundCopy.textContent = "Local-only membership";
+            frameHash.textContent = "Frame: verified draft opening";
+            previousButton.disabled = true;
+            nextButton.disabled = true;
+            resetButton.disabled = true;
+            autoplayButton.disabled = true;
+            renderFounders();
+            renderLists();
+            return;
+          }
+
           const completed = currentIndex + 1;
           const current = currentIndex >= 0 ? picks[currentIndex] : null;
           const next = picks[currentIndex + 1] || null;
@@ -841,8 +1092,9 @@
             selectionName.textContent = current.payload.name;
             selectionIdentity.textContent =
               current.payload.rapter_id + " • " + current.payload.stage + " • Round " + current.payload.round;
-            selectedBy.textContent = current.payload.assignee + " • Card " + current.payload.card_id;
-            starterHouse.textContent = current.payload.starter_role;
+            selectedBy.textContent =
+              "House " + current.payload.starter_role + " • Card " + current.payload.card_id;
+            starterHouse.textContent = current.payload.assignee;
             talentLane.textContent = current.payload.job_lane;
             frameHash.textContent = "Frame " + current.frame_hash;
           } else {
@@ -857,9 +1109,11 @@
 
           if (next) {
             onClock.textContent =
-              next.payload.assignee +
-              " • " +
+              "House " +
               next.payload.starter_role +
+              " • " +
+              next.payload.assignee +
+              " profile" +
               " • Pick " +
               next.payload.overall_pick;
             roundCopy.textContent =
@@ -884,6 +1138,7 @@
         }
 
         function nextPick() {
+          if (selectedHouseCode === null) return;
           if (currentIndex < picks.length - 1) {
             currentIndex += 1;
             render();
@@ -914,7 +1169,16 @@
           render();
         });
 
+        clearHouseButton.addEventListener("click", () => {
+          stopAutoplay();
+          selectedHouseCode = null;
+          currentIndex = -1;
+          persistHouse(null);
+          render();
+        });
+
         window.addEventListener("keydown", (event) => {
+          if (selectedHouseCode === null) return;
           if (event.code === "ArrowRight" || event.code === "Space") {
             event.preventDefault();
             nextPick();
@@ -930,10 +1194,15 @@
             if (!response.ok) throw new Error("draft chain returned " + response.status);
             const manifestResponse = await fetch("./manifest.json", { cache: "no-store" });
             if (!manifestResponse.ok) throw new Error("draft manifest returned " + manifestResponse.status);
-            const [text, manifest] = await Promise.all([
-              response.text(),
+            const [draftBytes, manifest] = await Promise.all([
+              response.arrayBuffer(),
               manifestResponse.json(),
             ]);
+            const bytes = new Uint8Array(draftBytes);
+            if ((await hashBytes(bytes)) !== expectedDraftFileHash) {
+              throw new Error("published draft file digest mismatch");
+            }
+            const text = new TextDecoder("utf-8", { fatal: true }).decode(bytes);
             frames = text
               .split("\n")
               .filter((line) => line.trim())
@@ -943,6 +1212,7 @@
             picks = semantics.candidatePicks;
             starters = semantics.declared.founding_four;
             if (
+              selectedHouseCode !== null &&
               Number.isInteger(requestedPick)
               && requestedPick >= 1
               && requestedPick <= picks.length
@@ -960,6 +1230,9 @@
               frameCount: frames.length,
               pickCount: picks.length,
               head: frames.at(-1).frame_hash,
+              get house() {
+                return selectedHouseCode;
+              },
               next: nextPick,
               reset: () => resetButton.click(),
             };
