@@ -18,6 +18,10 @@ STREAM = (
     ":genesis-251-draft"
 )
 VIDEO_ID = "genesis-251-founding-four-draft"
+DRAFT_FILE_SHA256 = (
+    "808396edee6af2cd1c92501777edc340b"
+    "d2fa0968201ebf08cc37f120c93d0dd"
+)
 
 
 def canonical(value):
@@ -56,6 +60,9 @@ def load_json(path):
 
 
 def main():
+    assert hashlib.sha256(
+        (DRAFT / "draft.jsonl").read_bytes()
+    ).hexdigest() == DRAFT_FILE_SHA256
     frames = [
         json.loads(line)
         for line in (DRAFT / "draft.jsonl").read_text(
@@ -169,11 +176,39 @@ def main():
     assert manifest["frame_count"] == 254
     assert manifest["pick_frame_count"] == 251
     assert manifest["head_frame_hash"] == frames[-1]["frame_hash"]
+    assert manifest["draft_file_sha256"] == DRAFT_FILE_SHA256
+    assert [
+        (item["house_code"], item["house"], item["founder_profile"])
+        for item in manifest["starting_houses"]
+    ] == [
+        ("overwatch", "Overwatch", "Molly"),
+        ("scout", "Scout", "Sawyer"),
+        ("forge", "Forge", "Evelyn"),
+        ("sentinel", "Sentinel", "Kody"),
+    ]
+    assert manifest["player_membership"] == {
+        "account_required": False,
+        "allowed_house_codes": [
+            "overwatch",
+            "scout",
+            "forge",
+            "sentinel",
+        ],
+        "companion_access": False,
+        "gameplay_power": False,
+        "network_submission": False,
+        "pii_collected": False,
+        "required": True,
+        "storage": "browser-local-only",
+    }
 
     channel = load_json(ROOT / "channel.json")
     videos = [video for video in channel["videos"] if video["id"] == VIDEO_ID]
     assert len(videos) == 1
     video = videos[0]
+    assert video["title"] == (
+        "The Four Starting Houses drafted all 251 Genesis Rapters"
+    )
     assert video["sources"] == []
     scenes = video["live"]["scenes"]
     assert len(scenes) == 254
@@ -186,7 +221,11 @@ def main():
         assert scene["card"]["title"] == (
             f"#{payload['overall_pick']:03d} {payload['name']}"
         )
+        assert scene["card"]["sub"].startswith(
+            f"{payload['starter_role']} house · "
+        )
         assert payload["assignee"] in scene["card"]["sub"]
+        assert " founder profile selects " in scene["card"]["sub"]
         assert payload["rapter_id"] in scene["card"]["sub"]
         assert frame["frame_hash"][:16] in scene["card"]["note"]
         if index:
@@ -198,15 +237,31 @@ def main():
     }
     assert "actions" not in app_scene
     assert app_scene["dur"] == 20
+    assert app_scene["lower"]["bench"] == (
+        "Overwatch 63 (Molly profile) · Scout 63 (Sawyer profile) · "
+        "Forge 63 (Evelyn profile) · Sentinel 62 (Kody profile)"
+    )
     assert (ROOT / video["thumb"]).is_file()
 
     html = (DRAFT / "index.html").read_text(encoding="utf-8")
     assert "scoutTheme" in html
     assert "--cp-accent: #b11f4b;" in html
     assert 'id="next-pick"' in html
+    assert 'id="player-house"' in html
+    assert 'id="clear-house"' in html
     assert 'get("pick")' in html
+    assert 'params.get("house")' not in html
+    assert 'const HOUSE_CODES = ["overwatch", "scout", "forge", "sentinel"]' in html
+    assert 'window.localStorage.setItem(HOUSE_STORAGE_KEY, code)' in html
+    assert DRAFT_FILE_SHA256 in html
+    assert "response.arrayBuffer()" in html
+    assert "chooseHouse," not in html
+    assert "No gameplay or companion power" in html
     assert 'fetch("./draft.jsonl"' in html
     assert "method: \"POST\"" not in html
+    assert "navigator.sendBeacon" not in html
+    assert 'type="email"' not in html
+    assert 'type="text"' not in html
 
     public_text = (
         (DRAFT / "draft.jsonl").read_text(encoding="utf-8")
@@ -224,7 +279,7 @@ def main():
 
     print(
         "Genesis 251 RAPP Vision replay: "
-        "254 verified frames, 251 unique picks, Founding Four only"
+        "254 verified frames, 251 unique picks, four required houses, no player PII"
     )
 
 
