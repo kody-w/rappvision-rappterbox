@@ -1,5 +1,9 @@
 # RappterBox Experiments
 
+<!-- rapp1:network-header:start -->
+[![RAPP/1](https://kody-w.github.io/rapp-hive-public/portfolio/badges/rappvision-rappterbox.svg)](https://github.com/kody-w/rapp-hive-public/blob/main/portfolio/repos/rappvision-rappterbox.md) · **New to RAPP?** [Start here: get your Brainstem →](https://github.com/kody-w/rapp-installer#start-here)
+<!-- rapp1:network-header:end -->
+
 Public RAPP Vision channel for evidence-backed RappterBox experiments.
 
 Every episode begins with a bounded prompt, shows the visible result, and ends
